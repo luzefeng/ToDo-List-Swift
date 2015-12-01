@@ -1,0 +1,49 @@
+PODS:
+  - JGProgressHUD (1.3.1)
+  - RadioButton (1.0)
+  - RMActionController (1.0.4)
+  - RMDateSelectionViewController (2.0.1):
+    - RMActionController (~> 1.0.0)
+  - SQLCipher (3.1.0):
+    - SQLCipher/standard (= 3.1.0)
+  - SQLCipher/common (3.1.0)
+  - SQLCipher/standard (3.1.0):
+    - SQLCipher/common
+  - SQLite.swift (1.0.0)
+  - SQLiteCipher.swift (1.0.0):
+    - SQLCipher
+  - SWTableViewCell (0.3.7)
+
+DEPENDENCIES:
+  - JGProgressHUD
+  - RadioButton
+  - RMDateSelectionViewController (~> 2.0.1)
+  - SQLite.swift (from `https://github.com/stephencelis/SQLite.swift.git`)
+  - SQLiteCipher.swift (from `https://github.com/stephencelis/SQLite.swift.git`)
+  - SWTableViewCell (~> 0.3.7)
+
+EXTERNAL SOURCES:
+  SQLite.swift:
+    :git: https://github.com/stephencelis/SQLite.swift.git
+  SQLiteCipher.swift:
+    :git: https://github.com/stephencelis/SQLite.swift.git
+
+CHECKOUT OPTIONS:
+  SQLite.swift:
+    :commit: c9d3082d1f5ddc2e55a792a8eb1a677b8a1b15f5
+    :git: https://github.com/stephencelis/SQLite.swift.git
+  SQLiteCipher.swift:
+    :commit: c9d3082d1f5ddc2e55a792a8eb1a677b8a1b15f5
+    :git: https://github.com/stephencelis/SQLite.swift.git
+
+SPEC CHECKSUMS:
+  JGProgressHUD: 153053a21d81208cb5f659691996bcefce6a9885
+  RadioButton: 7ef053baf6ff0e7f9e777016c28e9ba4e330edba
+  RMActionController: 19423654600d40ca15132a4e548d005042d68f09
+  RMDateSelectionViewController: 027bdeeaacb78b2b528808ed21efd697490d2b4e
+  SQLCipher: c44fcca49c31483c2489cfb79aa7a69407f3794a
+  SQLite.swift: 3bb75f5a650f08673276bc6d3fb1de1b542b8f4d
+  SQLiteCipher.swift: 6405d3937f6afc94614949336fd1fdefa37428b5
+  SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
+
+COCOAPODS: 0.39.0.beta.4

@@ -17,6 +17,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        //1.创建一组动作
+        let userAction = UIMutableUserNotificationAction()
+        userAction.identifier = "ACCEPT"
+        userAction.title = "Accept"
+        userAction.activationMode = UIUserNotificationActivationMode.Foreground
+        
+        let userAction2 = UIMutableUserNotificationAction()
+        userAction2.identifier = "IGNORE"
+        userAction2.title = "Ingore"
+        userAction2.activationMode = UIUserNotificationActivationMode.Background
+        userAction2.authenticationRequired = true
+        userAction2.destructive = true
+        
+        //2.创建动作的类别集合
+        let userCategory = UIMutableUserNotificationCategory()
+        userCategory.identifier = "ToDoNotification"
+        userCategory.setActions([userAction,userAction2], forContext: UIUserNotificationActionContext.Minimal)
+        let categories:NSSet = NSSet(object: userCategory)
+        
+        //3.创建UIUserNotificationSettings，并设置消息的显示类类型
+        let userSetting = UIUserNotificationSettings(forTypes: UIUserNotificationType([.Alert, .Badge, .Sound])
+            , categories: categories as? Set<UIUserNotificationCategory>)
+
+        //4.注册推送
+        application.registerUserNotificationSettings(userSetting)
         return true
     }
 
@@ -24,10 +49,59 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
     }
+    
+    func application(application: UIApplication, didReceiveLocalNotification notification: UILocalNotification) {
+        print("get a notification")
+        let state = application.applicationState
 
+        if state == UIApplicationState.Active {
+//            let alert = UIAlertController(title: "", message: notification.alertBody, preferredStyle: UIAlertControllerStyle.Alert)
+//            alert.addAction(UIAlertAction(title: "知道了", style: UIAlertActionStyle.Default, handler: nil))
+//            alert.addAction(<#T##action: UIAlertAction##UIAlertAction#>)
+            let alert = UIAlertView(title: "任务来咯", message: notification.alertBody, delegate: self, cancelButtonTitle: "知道了")
+            alert.show()
+            
+        }
+    }
+    
+    func application(application: UIApplication, handleActionWithIdentifier identifier: String?, forLocalNotification notification: UILocalNotification, completionHandler: () -> Void) {
+        print("identifier=\(identifier)")  //这里的identifier是按钮的identifier
+        if identifier == "ACCEPT"{
+            NSNotificationCenter.defaultCenter().postNotificationName("AcceptPressed", object: nil, userInfo: notification.userInfo)
+        }else if identifier == "IGNORE"{
+            NSNotificationCenter.defaultCenter().postNotificationName("IgnorePressed", object: nil, userInfo: notification.userInfo)
+        }
+        
+        completionHandler()  //最后一定要调用这上方法
+    }
+    
     func applicationDidEnterBackground(application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+//        UIApplication.sharedApplication().cancelAllLocalNotifications()
+        
+        var notification = UILocalNotification()
+        notification.fireDate = NSDate().dateByAddingTimeInterval(100)
+        //setting timeZone as localTimeZone
+        notification.timeZone = NSTimeZone.localTimeZone()
+        notification.repeatInterval = NSCalendarUnit.NSYearCalendarUnit
+        notification.alertTitle = "This is a local notification"
+        notification.alertBody = "ToDo List"
+        notification.alertAction = "ToDo List"
+        notification.category = "ToDoNotification" //这个很重要，跟上面的动作集合（UIMutableUserNotificationCategory）的identifier一样
+        notification.soundName = UILocalNotificationDefaultSoundName
+        //setting app's icon badge
+//        notification.applicationIconBadgeNumber = 1
+        notification.applicationIconBadgeNumber++
+        
+        var userInfo:[NSObject : AnyObject] = [NSObject : AnyObject]()
+        userInfo["index"] = 12
+        userInfo["hello"] = "world"
+        notification.userInfo = userInfo
+        
+        //UIApplication.sharedApplication().scheduleLocalNotification(notification)
+        //UIApplication.sharedApplication().presentLocalNotificationNow(notification)
+        application.presentLocalNotificationNow(notification)
     }
 
     func applicationWillEnterForeground(application: UIApplication) {

@@ -1,0 +1,1989 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03390DEE166FF7E1352E12DC2C34E67E /* SQLite-Bridging.m in Sources */ = {isa = PBXBuildFile; fileRef = AD93A9C9E7E1C9E845B6C8AB4F93D6F0 /* SQLite-Bridging.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0340A6E22214F38B5440C73974F32813 /* SQLite-Bridging.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA618D99B93D6916A778C793D0FA61 /* SQLite-Bridging.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		07085059FF45C028900FF5BC13D8E4E4 /* RMDateSelectionViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0540C77378D33401270714293B7E9A6 /* RMDateSelectionViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09D2CFF51BD26B5ACA45F555A9DC27A2 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC116E31F81B3CD0C0E9826296FB018 /* Blob.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0A0AB8C4B2E0F5ED9FF346BCDCE5C26A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C3454BE59946ECC3C4FB53FAE3A277 /* Foundation.framework */; };
+		0BE14BC03F323201F3ACA62935DACC95 /* JGProgressHUDPieIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F527B1B299800337CFC409991293EF /* JGProgressHUDPieIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C7996E7F411A6CC5AB74A00B0204B4D /* JGProgressHUD-Defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 835634485FAA7F4BD04BD10ADBE844B4 /* JGProgressHUD-Defines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D35F35319EBE75BA6EBF36ACA0CB2C8 /* JGProgressHUDSuccessIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8835163E2FF5F807D5ADD1E03AE3C91F /* JGProgressHUDSuccessIndicatorView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		14B93539507B779B5C4A16F97140B450 /* JGProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9F4500D5E1902CB8324F42EE28A95E /* JGProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17CA96F771C9180149812DF1900EB46F /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278BDADD88F0892BAC821536851358F /* Setter.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		17D08ABB89589E5931F42E3C16611116 /* SQLCipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E20E42761223554AA1BF6F601B24F23 /* SQLCipher.framework */; };
+		17D27845DD99D456D7D0AE79A338B8C5 /* SWUtilityButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = D76D4CD727BD7465F6DAD2E5DD082FDA /* SWUtilityButtonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C014630E84C4D353C153D7260D7BF61 /* RMActionController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3E188E2D8E7B96D57240A14D6530622 /* RMActionController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CE8B1202CB834227D983917848F031F /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5074BB1940A7F400562E07AF22E7870 /* CoreFunctions.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1D00C2806858832C5A3F3EB8A5E5131D /* SWTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F661F6342AF2D95B61D5CB882CB77E85 /* SWTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21A4BEF9C66EE398D35D142F2B7E3498 /* JGProgressHUDErrorIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9980D1CE188DCD7692DC4212DB960CA9 /* JGProgressHUDErrorIndicatorView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2B2091437FA376305BC9B643E48BAB64 /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31ADAC1E0C1BD157AC478131A1498C0 /* FTS4.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2F09FC89A0602BC7DD4947CDF15C13CF /* JGProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 1863963801E0BE7D16696F02F71444C3 /* JGProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FE7B2094A0BCB77AA57341ED6BD86FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C352833B9D5ADE1F895202225C1767FE /* CoreGraphics.framework */; };
+		313F285541C4A303D0539855713185C5 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFC1A7EA0DF60CBF7D55F7807ED4619 /* CustomFunctions.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		31FF3225FC7C55807D5E4D8AA4EFD1B7 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F576147367BF4E4F043506666DA9A /* Expression.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		322F0E95364C504C2CE97D9C4D6CC990 /* SQLiteCipher.h in Headers */ = {isa = PBXBuildFile; fileRef = AB425AB5F839F06ECACA1CCF6D366AC6 /* SQLiteCipher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33567414BB1CB51A6184D7928E9B8C73 /* RMDateSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B850075FC47365740F2B11E7484D279F /* RMDateSelectionViewController.m */; };
+		36F18952CCD0D479E9107136E16B7558 /* RadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E3BC88696B1DD5ECE6612DBA0A6105 /* RadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DE906DAAFE9BD76D57C10C67717C7A1 /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E92726552D0F61CF49493A06C4A7F922 /* SWCellScrollView.m */; };
+		3EFB67CB27521A2A74134A600A0ECE70 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D444AEBA23EC8025E1A148B1F6A892 /* Operators.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3F76EAFE81BD127DDA81C5C4E2B80BA8 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 868E9B49D71A158FB50E7D1328844E39 /* SWUtilityButtonView.m */; };
+		405575F9B45762BA1300DDD8ED030464 /* RMActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBCB93AA39AC6339E4908785AA582B4 /* RMActionController.m */; };
+		41BF87FB3EF8F3EB0F755F1F8FFE5134 /* SQLiteCipher.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A067379CACD6F0BBB01F6B0D079647 /* SQLiteCipher.swift-dummy.m */; };
+		41D58274F042D532F50F744805AF70A4 /* SWTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05661A139DA2E3E427339A9C305A9230 /* SWTableViewCell-dummy.m */; };
+		42651DB43E952EF39CEFD72E265F8A6E /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F41AA03D52606A783AC036B56F84A9 /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44D02F06739A0209C748CC5DDBE46569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C3454BE59946ECC3C4FB53FAE3A277 /* Foundation.framework */; };
+		47BD7B4E5BE28809A87E72F9F56321A7 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAF7ED0BB2D58624B554867BF00FC6F /* Query.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		49D49CF7321C34BD6F2DEBC683B98E48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C3454BE59946ECC3C4FB53FAE3A277 /* Foundation.framework */; };
+		4B75E5CDBE8743901B0A7DE84E47DF54 /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6EEEB753BE1B74821B7006EB1DE08B /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CC83C588EC4FD1920E3F0882AC23C96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C3454BE59946ECC3C4FB53FAE3A277 /* Foundation.framework */; };
+		5196FBBE69D933790FFC5DE47B77759E /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE89A230A4E90AF69AB68863D149D7A7 /* CoreFunctions.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		534EDAD1106BE6082995224CE1731DE9 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28D6B71F1B599CAB3DBE5599C68E0D4 /* Connection.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		54F27A6648F6D51201140DB34353ABA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C3454BE59946ECC3C4FB53FAE3A277 /* Foundation.framework */; };
+		55536DC8A678897BEC7D2831EE36F925 /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755A5B6AC20F5B4F53A462D0AD5734E3 /* AggregateFunctions.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5709B54399CEF3A304BAB5860E175894 /* JGProgressHUDImageIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 653C137DAE235C5812426548E3EFB967 /* JGProgressHUDImageIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57C6E014D4FAB2DA39742644F7363F18 /* RMDateSelectionViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D808A2F7EAFBA7250D18050D5A494C9 /* RMDateSelectionViewController-dummy.m */; };
+		5A17825EE46DEC03951A627FC46742AC /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE9431AB6D3FF64811CCD5BCE0F830D /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A7A6F4E963D2F03FC35C674EF6F6EAF /* JGProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 822FB9B5A6DD91C130BB4C666D545158 /* JGProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5C4D974211060707410883D9A44FBB3B /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0816303E2695495E290B7CEFE9502ABE /* RadioButton.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5C8A82D733DDBB0934FEB82C51381D86 /* JGProgressHUDIndeterminateIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8945E9FCC2710EBA31CB99CC332D87 /* JGProgressHUDIndeterminateIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1B21C1390F5EA645CED57EB46E97EF /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F55E8F879733C4C52403B76B737AB53D /* Pods-dummy.m */; };
+		60A39280229DE8F9A71E8824F93AED53 /* SWCellScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = D35131ACADEB50E7F58C8ECEFB4283E3 /* SWCellScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61AD3C5A14DAFBF40893DF38B59A6E67 /* JGProgressHUDIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E14364207F056A7DF879A24C883AB96 /* JGProgressHUDIndicatorView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6363D127A4FAE49AE170770A107D81D2 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E318BB92C56FB1619F728DFE6E663DB /* Statement.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		641CED4A27C66AC51D16739A9615BA6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A328EBF7A0E633D4197C3345655EE7AC /* UIKit.framework */; };
+		675782C6A880E9B2F8AF5D5EE42E8D34 /* SQLCipher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6921AEE8BCB38E80D0F27795CA5EA9BB /* SQLCipher-dummy.m */; };
+		695445EFEBD7A4A75C8B4057CD0ACEA4 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94316C339FDCE947C5C726E5ABB4B4E7 /* Blob.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6BD19AA95FDB4C516FA2627919F5A7F7 /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3414E31FDD1D58EB4D3594D622E078 /* Setter.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6EE9EFC9FC314E6D5155E7C3956C25F6 /* JGProgressHUDSuccessIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA1C83445B0EF462A771A82E745F03E /* JGProgressHUDSuccessIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F183BA61CFBF134844476190F055A8F /* JGProgressHUDAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B96035EAFE4862285418A1E3B33B1628 /* JGProgressHUDAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FAC880BC770860B7385B796487D3B59 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09587B99A060EDAA1A398435075A2FA /* Expression.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		720E553C5B0916F0C8748788420E1797 /* SWTableViewCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1C86133BE3CA076E9E78FBCB8F6760 /* SWTableViewCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		741C294ECDE13B2112475B5278B60A22 /* JGProgressHUDRingIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0755BB85850C717C809F00584FB568F6 /* JGProgressHUDRingIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		763CBCBD50E118D2100E0D1F0F5D5686 /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = D2951819E9664EB2BC1E44521C683F9D /* SWUtilityButtonTapGestureRecognizer.m */; };
+		782AD842113394345874E2C63C276094 /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D77E95164C18FD758C79B30378D228 /* Collation.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		78E88C1B3FCCED683AE1BDA9C46DC9BD /* JGProgressHUDPieIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB71E85FB5B422732391662E90D45D5C /* JGProgressHUDPieIndicatorView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7E1341164189DCEC115F65A195941DC9 /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA81EA5992C053808B2FD15D6931EA22 /* Collation.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		81094C06863A33958AC9275EED888D8D /* JGProgressHUDFadeZoomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 23C6205EFA192A241B56FA065E8F0EEF /* JGProgressHUDFadeZoomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81F04B4F89E8E7D6F6B0746F9EA328FC /* R*Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593281D703DE141FA324E55B5CBCB114 /* R*Tree.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		82C5972DF438A03C978600A2BB0C1584 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CEA6985ABB07863C4BEDF84DD2F4B5C /* sqlite3.c */; settings = {COMPILER_FLAGS = "-DSQLITE_HAS_CODEC -DSQLITE_TEMP_STORE=2 -DSQLITE_THREADSAFE -DSQLCIPHER_CRYPTO_CC -fno-objc-arc"; }; };
+		831752BF8A29257C88FE8EA2A3A6A7FC /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FB6A098304637A1BCFCF774C0392A6 /* Helpers.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		83232FE0AC7FA127F92CD21C96C245EB /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F1FEEF2E80BA7E490B76E63F9C2F7C /* Value.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		83C2AC30DFD7FBFA14E90B5E87ED9574 /* SQLite.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0710D2CCA1F7F90D889ABFF27832A2 /* SQLite.swift-dummy.m */; };
+		86A264DA49242E4813F3B7F616345C56 /* JGProgressHUDAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C17EC841E3398515BE7C6CB05996BB26 /* JGProgressHUDAnimation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8A9C66296B871669FB6559461CC846AD /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0238E3A4800DC553D951C5C88AD4A5 /* Schema.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8ACB1D136AEDDD989CB96C2984665A51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C3454BE59946ECC3C4FB53FAE3A277 /* Foundation.framework */; };
+		8BB5B6FC8583BC74ADBD35BBDE989E36 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2DDD70F7844372C84694831112E29E /* Helpers.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8F68E0AC82AD75B059EA81E7A46041ED /* SQLite-Bridging.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D7CBDA1DE804532B5F33B865E4DE75 /* SQLite-Bridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9230F4E8946C6A25423DEE06546133F1 /* RMActionController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC96194C20093353CEED433549EFA4DE /* RMActionController-dummy.m */; };
+		98E7BF8A26D4D29FDCEBF58EEAAA92E1 /* JGProgressHUD Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5426C6CA24BCD55F2B29F272857F8772 /* JGProgressHUD Resources.bundle */; };
+		99F7E1A0A161D7997705433D96B24224 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E91908747D699385A19AA91F7CBA4DF3 /* SWTableViewCell.m */; };
+		9ACF0E91B9D3D3C948387044131CE2DA /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = E184E4F53870502363D2CB9A1CF29B83 /* fts3_tokenizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9B763E5D5A029F4048C49A641E962B13 /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F02999DB6446A67956F30F4196396 /* FTS4.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9D349742069AA83277DC645FA52E7A46 /* SQLite-Bridging.h in Headers */ = {isa = PBXBuildFile; fileRef = C6E20EF8A9DFC5FD79E1593F9121DEF3 /* SQLite-Bridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0608C1F4133E907B329323A4DE72259 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C3454BE59946ECC3C4FB53FAE3A277 /* Foundation.framework */; };
+		A42C7CAC1D53613F271654E48CF8C9CD /* RMActionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C2B101A998B942D71F02EBE378BA12 /* RMActionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A63EE00CCEE5DD1C139D797500796913 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDFD0FE53C7C57F7D783986CD73BE5C /* CustomFunctions.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A67ADE217551FDCAC91CA237D9A659AE /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E517BE2127A79EA0BED40FADEFAA08D /* Statement.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A74D9D6524BE3D20DBCF8A8639F447C9 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDE421D3D1A5C51E876364C19BCCEA4 /* Connection.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AD98D2DA24865D8A63568142A76476CC /* RMDateSelectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE3F635E0267EB1831CDF452772875E /* RMDateSelectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE6685B5153CA441401A59DE848767BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C3454BE59946ECC3C4FB53FAE3A277 /* Foundation.framework */; };
+		B0F4AA3C4780F639B63F45614B1967D3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0643DB730C945BE5357A025356C43ECE /* Security.framework */; };
+		B50325B0823ED30A2AA542A1B4396854 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CB29905B4062D2245B522056F790E3 /* Operators.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B5223C38B7F198D6C46230DB25AE7875 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EE888D7443C4DC683C0873501C67C4 /* NSMutableArray+SWUtilityButtons.m */; };
+		B6C0FA911C709BB076A83BAB90EFE209 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97D628D020421539B1E50ABC0036094 /* Value.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B7B17DA65FEFC0E822F09CE25003EE19 /* JGProgressHUDFadeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C396CA146CC1633F7E9D47F72BC1BC /* JGProgressHUDFadeAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB94C1D89F1FA380FAE3830B87965A28 /* RadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E5EB3FE91678CD7B34A3E763C8C3B0 /* RadioButton-dummy.m */; };
+		BE715A5335064B8EBFB7A05167193A50 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC850D4FB4B77CEBF548215B3BAB9EC /* QuartzCore.framework */; };
+		BE758732FC9C8F17EE4FF835CB264DEA /* JGProgressHUDIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 58752DBFC2B4A58431918493D36A346D /* JGProgressHUDIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C07B37BAE04C98BF6CD7E294E32B2F42 /* Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBBE7E2A1106979086CE96B5650D287 /* Cipher.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C7FDA083DEDCE5FF27FCDBEDBE26C64C /* JGProgressHUDErrorIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5296702FA7D7B7A2CD740BCC102AFC26 /* JGProgressHUDErrorIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C809CEB88BC7E2952C41FD25D30CC70C /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691ED9BDE4CFB6FE8E7FC46B7E1BBC6E /* Foundation.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C88D89077FF1FA7F421AC87C05970245 /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D844FD43F5CEFFE57EFEECBEE98DE668 /* Foundation.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CE8EB580F1D48CCF8487E4770156BFA4 /* JGProgressHUDIndeterminateIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E3F4356BCB5F6EAF0ED13C27BDB5D8 /* JGProgressHUDIndeterminateIndicatorView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D32346ADF22F3AEF0BF585DEB8581050 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC850D4FB4B77CEBF548215B3BAB9EC /* QuartzCore.framework */; };
+		D616CA4EABB2AF7DE011295302958410 /* JGProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A80FC2B54FDDB8D5784BE2EAD43D7D /* JGProgressHUD-dummy.m */; };
+		D743A5CD0E27C31F3BEAB5FBD1952FFD /* NSMutableArray+SWUtilityButtons.h in Headers */ = {isa = PBXBuildFile; fileRef = 86040EB54AAFD438BDB0D8CFB6CEFF03 /* NSMutableArray+SWUtilityButtons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9156B06A17FD9870EFCF62B8D04BA0A /* SWUtilityButtonTapGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = E8FBD130BD66C5AF386A4C6A974F1043 /* SWUtilityButtonTapGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA825EA8A350387C663E38D50168E737 /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 403D34881BD467E11AD08AD746278AC3 /* SWLongPressGestureRecognizer.m */; };
+		DD7DBEA78CC627591DA8B0E994B4E1A2 /* R*Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6C74270713EE4DDB44836D7348DEEB /* R*Tree.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E404AEACD857FC283980C7961361A382 /* JGProgressHUDImageIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF91F7BD981640517175A6C482D08C9D /* JGProgressHUDImageIndicatorView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E5A6793CA0A9BA1260E12EE32C9AA813 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB73F2C072309033EA5B6D893AA6B11E /* Query.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E6124524F463BA72CD3D650B597642C9 /* JGProgressHUDRingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 119253F15637C400135F98F6BE4C3CA2 /* JGProgressHUDRingIndicatorView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EBB5FF4CA2BD5D07E853A295EB40802F /* SQLCipher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9F80E57FB4602DB6E769AD048878C4 /* SQLCipher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECBDF6EB97AA196ED7C273D37BD28E6B /* RadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26D0FC3AAB77C7519E717087FD8E91B8 /* RadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE3C079CED4917333A4D92CC700B9911 /* RMActionController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DEE9CE156AABDDB70B24490D9AA071 /* RMActionController.framework */; };
+		F12029988B585D3494F0FEB407D5484E /* SWLongPressGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B39C54E5EE46B4F8EA4F61FDD95A3E97 /* SWLongPressGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2D028E50F6CF02CB5E2CBB7958D4F86 /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B19F3D8641C6599A7D1DD1564D6BE3F9 /* fts3_tokenizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F47397696826E40D385D6D054AFCAA79 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEDF28B088BAFB47EF0ED223430A06A /* Schema.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F4EF484A9BBE545A043647FAAD00475E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C3454BE59946ECC3C4FB53FAE3A277 /* Foundation.framework */; };
+		F6EF3FDF07579E60163209B3780EFD1F /* JGProgressHUDFadeZoomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2AA8A26018E56BC22BB8AF9D638790 /* JGProgressHUDFadeZoomAnimation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F779538A3A8E2DE0FB5FAAF342869C77 /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DFC6A3C6B2AEF9B5512DBBA2EC0BCA /* AggregateFunctions.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FBC373370983BD7A2EE3A150905C59AD /* JGProgressHUDFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7D2B7247EFE03A3931E50904384E39 /* JGProgressHUDFadeAnimation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A9B1A59E10218644121D2992AE23A25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78269029898312DEC12343E232146814;
+			remoteInfo = RMDateSelectionViewController;
+		};
+		3CA92828D12E6FBEA27EF021EE980945 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DB66A22337CA6BA2552B96589051B2E;
+			remoteInfo = RMActionController;
+		};
+		68410676A5693C9B66416C8DB22F2B87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DB66A22337CA6BA2552B96589051B2E;
+			remoteInfo = RMActionController;
+		};
+		6D19AD10F321C24B38FE14E3AF5A68B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9445402A774BC7447929709E27EF67B5;
+			remoteInfo = SQLite.swift;
+		};
+		6F4C9656DC656C655F8E523C4B2DF429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91B668AACFCEC937DDF9E31C1D103AA6;
+			remoteInfo = JGProgressHUD;
+		};
+		A48C70AFF4FB7C27166418C11A9CEE04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B02DED5F7448F208F3DF1EA6BD4498E;
+			remoteInfo = SQLiteCipher.swift;
+		};
+		A4EC8CFD6790F4AD795BE7D1BECCD8CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57871DEE1DD900D8C5580215B40D4B21;
+			remoteInfo = SQLCipher;
+		};
+		BEBC9AD8D3E711DE99F6C1674BEB4993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34FF3260069207E50EED7267CC68BDA4;
+			remoteInfo = RadioButton;
+		};
+		DB0DE9FC8E8B4053B2BDF1DD77FCAA18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F931DBA32E5B4CCE359DB807D0AB682;
+			remoteInfo = SWTableViewCell;
+		};
+		F1322DBBC9BF3324061D15A805607C4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57871DEE1DD900D8C5580215B40D4B21;
+			remoteInfo = SQLCipher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00606D4B5F4C27102363F703141F89AC /* SQLiteCipher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLiteCipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05661A139DA2E3E427339A9C305A9230 /* SWTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWTableViewCell-dummy.m"; sourceTree = "<group>"; };
+		0643DB730C945BE5357A025356C43ECE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		0755BB85850C717C809F00584FB568F6 /* JGProgressHUDRingIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDRingIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDRingIndicatorView.h; sourceTree = "<group>"; };
+		0816303E2695495E290B7CEFE9502ABE /* RadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RadioButton.m; sourceTree = "<group>"; };
+		08AE435661CC939C37A735EB4DCE735C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D808A2F7EAFBA7250D18050D5A494C9 /* RMDateSelectionViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMDateSelectionViewController-dummy.m"; sourceTree = "<group>"; };
+		0EE3F635E0267EB1831CDF452772875E /* RMDateSelectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMDateSelectionViewController.h; path = RMDateSelectionViewController/RMDateSelectionViewController.h; sourceTree = "<group>"; };
+		119253F15637C400135F98F6BE4C3CA2 /* JGProgressHUDRingIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDRingIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDRingIndicatorView.m; sourceTree = "<group>"; };
+		14552916DF8BA49C77A154110BCFA0AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14A067379CACD6F0BBB01F6B0D079647 /* SQLiteCipher.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLiteCipher.swift-dummy.m"; sourceTree = "<group>"; };
+		1863963801E0BE7D16696F02F71444C3 /* JGProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUD.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUD.h; sourceTree = "<group>"; };
+		18CA618D99B93D6916A778C793D0FA61 /* SQLite-Bridging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SQLite-Bridging.m"; path = "Source/Core/SQLite-Bridging.m"; sourceTree = "<group>"; };
+		19EE888D7443C4DC683C0873501C67C4 /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+SWUtilityButtons.m"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		1BDE421D3D1A5C51E876364C19BCCEA4 /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Source/Core/Connection.swift; sourceTree = "<group>"; };
+		1C0A9F272325ACC6527778FFDC25C7E4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		1CD4C33506E440EC22C051341C13AA37 /* RMDateSelectionViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMDateSelectionViewController-prefix.pch"; sourceTree = "<group>"; };
+		23C6205EFA192A241B56FA065E8F0EEF /* JGProgressHUDFadeZoomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDFadeZoomAnimation.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDFadeZoomAnimation.h; sourceTree = "<group>"; };
+		24F41AA03D52606A783AC036B56F84A9 /* sqlite3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		26D0FC3AAB77C7519E717087FD8E91B8 /* RadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RadioButton-umbrella.h"; sourceTree = "<group>"; };
+		28F527B1B299800337CFC409991293EF /* JGProgressHUDPieIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDPieIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDPieIndicatorView.h; sourceTree = "<group>"; };
+		29E3BC88696B1DD5ECE6612DBA0A6105 /* RadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RadioButton.h; sourceTree = "<group>"; };
+		2D9AB78E82D6B82D34DBB3C3CCE89422 /* RMActionController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMActionController.xcconfig; sourceTree = "<group>"; };
+		2DBBE7E2A1106979086CE96B5650D287 /* Cipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cipher.swift; path = Source/Cipher/Cipher.swift; sourceTree = "<group>"; };
+		2E0F576147367BF4E4F043506666DA9A /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Source/Typed/Expression.swift; sourceTree = "<group>"; };
+		3DC116E31F81B3CD0C0E9826296FB018 /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Source/Core/Blob.swift; sourceTree = "<group>"; };
+		3E14364207F056A7DF879A24C883AB96 /* JGProgressHUDIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDIndicatorView.m; sourceTree = "<group>"; };
+		3E2DDD70F7844372C84694831112E29E /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Source/Helpers.swift; sourceTree = "<group>"; };
+		3E517BE2127A79EA0BED40FADEFAA08D /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = Source/Core/Statement.swift; sourceTree = "<group>"; };
+		3FBEA6104F02DA07CEC41505CAC596F1 /* SQLiteCipher.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SQLiteCipher.swift.modulemap; sourceTree = "<group>"; };
+		403D34881BD467E11AD08AD746278AC3 /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWLongPressGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		43DAAADF475AD230A0912924B6BECD47 /* RadioButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RadioButton.xcconfig; sourceTree = "<group>"; };
+		45247BEE11E1640F3C87989790ADF947 /* SWTableViewCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SWTableViewCell.modulemap; sourceTree = "<group>"; };
+		4A7B5425910E0C63813CFC31770E8880 /* SQLite.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.xcconfig; sourceTree = "<group>"; };
+		4BC8F850C971573C57FEC141D2A887A9 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BDFD0FE53C7C57F7D783986CD73BE5C /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = Source/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
+		4DA1C83445B0EF462A771A82E745F03E /* JGProgressHUDSuccessIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDSuccessIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDSuccessIndicatorView.h; sourceTree = "<group>"; };
+		4E318BB92C56FB1619F728DFE6E663DB /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = Source/Core/Statement.swift; sourceTree = "<group>"; };
+		4E8A07AC81554C093BC71EA981448368 /* RMDateSelectionViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMDateSelectionViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC75034F5F4DF78A5819FFDFFB47B4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		515862F60C462ADD02E8C792D0EF1A45 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523F02999DB6446A67956F30F4196396 /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = Source/Extensions/FTS4.swift; sourceTree = "<group>"; };
+		5296702FA7D7B7A2CD740BCC102AFC26 /* JGProgressHUDErrorIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDErrorIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDErrorIndicatorView.h; sourceTree = "<group>"; };
+		53EDD7E1BD77B55E7331FA5DD871AE0D /* SQLCipher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLCipher-prefix.pch"; sourceTree = "<group>"; };
+		5426C6CA24BCD55F2B29F272857F8772 /* JGProgressHUD Resources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = "JGProgressHUD Resources.bundle"; path = "JGProgressHUD/JGProgressHUD/JGProgressHUD Resources.bundle"; sourceTree = "<group>"; };
+		54A80FC2B54FDDB8D5784BE2EAD43D7D /* JGProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JGProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		558C849CB760C536FDA6631BF16C1B99 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E5A4662EB6CA26C2D3CB14184FDF01 /* JGProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		56C396CA146CC1633F7E9D47F72BC1BC /* JGProgressHUDFadeAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDFadeAnimation.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDFadeAnimation.h; sourceTree = "<group>"; };
+		57C2B101A998B942D71F02EBE378BA12 /* RMActionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMActionController.h; path = RMActionController/RMActionController.h; sourceTree = "<group>"; };
+		57E5EB3FE91678CD7B34A3E763C8C3B0 /* RadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RadioButton-dummy.m"; sourceTree = "<group>"; };
+		5814B4C0AB9E274F334504EAA4FDE92B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58752DBFC2B4A58431918493D36A346D /* JGProgressHUDIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDIndicatorView.h; sourceTree = "<group>"; };
+		593281D703DE141FA324E55B5CBCB114 /* R*Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "R*Tree.swift"; path = "Source/Extensions/R*Tree.swift"; sourceTree = "<group>"; };
+		64D887053DF5E1B2AA3910C60DE54CA6 /* SQLCipher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLCipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		653C137DAE235C5812426548E3EFB967 /* JGProgressHUDImageIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDImageIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDImageIndicatorView.h; sourceTree = "<group>"; };
+		66E3F4356BCB5F6EAF0ED13C27BDB5D8 /* JGProgressHUDIndeterminateIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDIndeterminateIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDIndeterminateIndicatorView.m; sourceTree = "<group>"; };
+		66FB6A098304637A1BCFCF774C0392A6 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Source/Helpers.swift; sourceTree = "<group>"; };
+		691ED9BDE4CFB6FE8E7FC46B7E1BBC6E /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = Source/Foundation.swift; sourceTree = "<group>"; };
+		6921AEE8BCB38E80D0F27795CA5EA9BB /* SQLCipher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLCipher-dummy.m"; sourceTree = "<group>"; };
+		6B9F4500D5E1902CB8324F42EE28A95E /* JGProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		6E20E42761223554AA1BF6F601B24F23 /* SQLCipher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLCipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EADB3EB1C6F0F2B2DA458C0DB4285AB /* RMDateSelectionViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMDateSelectionViewController.xcconfig; sourceTree = "<group>"; };
+		70B784FFD81988C011183E376AE63778 /* JGProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JGProgressHUD.xcconfig; sourceTree = "<group>"; };
+		755A5B6AC20F5B4F53A462D0AD5734E3 /* AggregateFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AggregateFunctions.swift; path = Source/Typed/AggregateFunctions.swift; sourceTree = "<group>"; };
+		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		7C7D2B7247EFE03A3931E50904384E39 /* JGProgressHUDFadeAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDFadeAnimation.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDFadeAnimation.m; sourceTree = "<group>"; };
+		7CEA6985ABB07863C4BEDF84DD2F4B5C /* sqlite3.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
+		7E15C2D42DD41B277B3685A57352911F /* SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
+		81032B5EB512AA6BC25684A483A7DD8A /* SWTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		822FB9B5A6DD91C130BB4C666D545158 /* JGProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUD.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUD.m; sourceTree = "<group>"; };
+		8278BDADD88F0892BAC821536851358F /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = Source/Typed/Setter.swift; sourceTree = "<group>"; };
+		835634485FAA7F4BD04BD10ADBE844B4 /* JGProgressHUD-Defines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JGProgressHUD-Defines.h"; path = "JGProgressHUD/JGProgressHUD/JGProgressHUD-Defines.h"; sourceTree = "<group>"; };
+		86040EB54AAFD438BDB0D8CFB6CEFF03 /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SWUtilityButtons.h"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		868E9B49D71A158FB50E7D1328844E39 /* SWUtilityButtonView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonView.m; path = SWTableViewCell/PodFiles/SWUtilityButtonView.m; sourceTree = "<group>"; };
+		8712D5B2E40712E62ABA987E97BC3C91 /* JGProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JGProgressHUD.modulemap; sourceTree = "<group>"; };
+		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		8835163E2FF5F807D5ADD1E03AE3C91F /* JGProgressHUDSuccessIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDSuccessIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDSuccessIndicatorView.m; sourceTree = "<group>"; };
+		88D77E95164C18FD758C79B30378D228 /* Collation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collation.swift; path = Source/Typed/Collation.swift; sourceTree = "<group>"; };
+		8CE9431AB6D3FF64811CCD5BCE0F830D /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		8DBB7DF5C5BB80338ECD611B374EF41D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E2AA8A26018E56BC22BB8AF9D638790 /* JGProgressHUDFadeZoomAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDFadeZoomAnimation.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDFadeZoomAnimation.m; sourceTree = "<group>"; };
+		913898A1722CB4A87BAE693FBEA728C8 /* RadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RadioButton-prefix.pch"; sourceTree = "<group>"; };
+		94316C339FDCE947C5C726E5ABB4B4E7 /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Source/Core/Blob.swift; sourceTree = "<group>"; };
+		9476923A92F63250C4A91C686BDE0DCF /* SQLiteCipher.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLiteCipher.swift.xcconfig; sourceTree = "<group>"; };
+		9980D1CE188DCD7692DC4212DB960CA9 /* JGProgressHUDErrorIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDErrorIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDErrorIndicatorView.m; sourceTree = "<group>"; };
+		9A33D24B092CE458C572411566DD164B /* SWTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWTableViewCell.xcconfig; sourceTree = "<group>"; };
+		9C1C86133BE3CA076E9E78FBCB8F6760 /* SWTableViewCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTableViewCell-umbrella.h"; sourceTree = "<group>"; };
+		9E21F8B13F7DB6E175A519F52CAFAC77 /* RMActionController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMActionController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03D79BF20AAF14D88AEBAE0BBB8485C /* RMActionController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMActionController-prefix.pch"; sourceTree = "<group>"; };
+		A31ADAC1E0C1BD157AC478131A1498C0 /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = Source/Extensions/FTS4.swift; sourceTree = "<group>"; };
+		A328EBF7A0E633D4197C3345655EE7AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A5074BB1940A7F400562E07AF22E7870 /* CoreFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreFunctions.swift; path = Source/Typed/CoreFunctions.swift; sourceTree = "<group>"; };
+		A5C3215BB5F1BD20A152434D70A4DC37 /* RadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97D628D020421539B1E50ABC0036094 /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Source/Core/Value.swift; sourceTree = "<group>"; };
+		AB425AB5F839F06ECACA1CCF6D366AC6 /* SQLiteCipher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLiteCipher.h; path = "Supporting Files/SQLiteCipher/SQLiteCipher.h"; sourceTree = "<group>"; };
+		ABBCB93AA39AC6339E4908785AA582B4 /* RMActionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMActionController.m; path = RMActionController/RMActionController.m; sourceTree = "<group>"; };
+		AC96194C20093353CEED433549EFA4DE /* RMActionController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMActionController-dummy.m"; sourceTree = "<group>"; };
+		AD8945E9FCC2710EBA31CB99CC332D87 /* JGProgressHUDIndeterminateIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDIndeterminateIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDIndeterminateIndicatorView.h; sourceTree = "<group>"; };
+		AD93A9C9E7E1C9E845B6C8AB4F93D6F0 /* SQLite-Bridging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SQLite-Bridging.m"; path = "Source/Core/SQLite-Bridging.m"; sourceTree = "<group>"; };
+		AF3414E31FDD1D58EB4D3594D622E078 /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = Source/Typed/Setter.swift; sourceTree = "<group>"; };
+		B00BBC6FD99C8B5B14CEA4D694991609 /* JGProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JGProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19F3D8641C6599A7D1DD1564D6BE3F9 /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = Source/Core/fts3_tokenizer.h; sourceTree = "<group>"; };
+		B39C54E5EE46B4F8EA4F61FDD95A3E97 /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWLongPressGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		B850075FC47365740F2B11E7484D279F /* RMDateSelectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMDateSelectionViewController.m; path = RMDateSelectionViewController/RMDateSelectionViewController.m; sourceTree = "<group>"; };
+		B8E706F8F0858BED226B4FB18DE44BAB /* SQLCipher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLCipher.xcconfig; sourceTree = "<group>"; };
+		B96035EAFE4862285418A1E3B33B1628 /* JGProgressHUDAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDAnimation.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDAnimation.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB71E85FB5B422732391662E90D45D5C /* JGProgressHUDPieIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDPieIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDPieIndicatorView.m; sourceTree = "<group>"; };
+		BB73F2C072309033EA5B6D893AA6B11E /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Source/Typed/Query.swift; sourceTree = "<group>"; };
+		BDEDF28B088BAFB47EF0ED223430A06A /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = Source/Typed/Schema.swift; sourceTree = "<group>"; };
+		BF91F7BD981640517175A6C482D08C9D /* JGProgressHUDImageIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDImageIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDImageIndicatorView.m; sourceTree = "<group>"; };
+		C09587B99A060EDAA1A398435075A2FA /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Source/Typed/Expression.swift; sourceTree = "<group>"; };
+		C17EC841E3398515BE7C6CB05996BB26 /* JGProgressHUDAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDAnimation.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDAnimation.m; sourceTree = "<group>"; };
+		C352833B9D5ADE1F895202225C1767FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		C461ABE57BA0E0E2D1C41D99CCA38C29 /* RadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RadioButton.modulemap; sourceTree = "<group>"; };
+		C5C3454BE59946ECC3C4FB53FAE3A277 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C6E20EF8A9DFC5FD79E1593F9121DEF3 /* SQLite-Bridging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SQLite-Bridging.h"; path = "Source/Core/SQLite-Bridging.h"; sourceTree = "<group>"; };
+		CA0238E3A4800DC553D951C5C88AD4A5 /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = Source/Typed/Schema.swift; sourceTree = "<group>"; };
+		CA81EA5992C053808B2FD15D6931EA22 /* Collation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collation.swift; path = Source/Typed/Collation.swift; sourceTree = "<group>"; };
+		CAAF7ED0BB2D58624B554867BF00FC6F /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Source/Typed/Query.swift; sourceTree = "<group>"; };
+		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		CBFC1A7EA0DF60CBF7D55F7807ED4619 /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = Source/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
+		CE3A0BA5F7A21B87900E2BBC559B84EF /* SWTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTableViewCell-prefix.pch"; sourceTree = "<group>"; };
+		CE6C74270713EE4DDB44836D7348DEEB /* R*Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "R*Tree.swift"; path = "Source/Extensions/R*Tree.swift"; sourceTree = "<group>"; };
+		D03036EFC36E1061D4F6AD0F8F89B99E /* SQLiteCipher.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLiteCipher.swift-prefix.pch"; sourceTree = "<group>"; };
+		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1966D55B641B1D372D6B2F5D454388A /* SQLCipher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SQLCipher.modulemap; sourceTree = "<group>"; };
+		D2951819E9664EB2BC1E44521C683F9D /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonTapGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		D35131ACADEB50E7F58C8ECEFB4283E3 /* SWCellScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWCellScrollView.h; path = SWTableViewCell/PodFiles/SWCellScrollView.h; sourceTree = "<group>"; };
+		D456A604ADB659BFCDF54174244808BE /* SQLite.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SQLite.swift.modulemap; sourceTree = "<group>"; };
+		D5F1FEEF2E80BA7E490B76E63F9C2F7C /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Source/Core/Value.swift; sourceTree = "<group>"; };
+		D689EA9136A3932F688E6186ED20CC7F /* RMActionController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RMActionController.modulemap; sourceTree = "<group>"; };
+		D76D4CD727BD7465F6DAD2E5DD082FDA /* SWUtilityButtonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonView.h; path = SWTableViewCell/PodFiles/SWUtilityButtonView.h; sourceTree = "<group>"; };
+		D844FD43F5CEFFE57EFEECBEE98DE668 /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = Source/Foundation.swift; sourceTree = "<group>"; };
+		D849E02D5A55E771751A73FEE95507AC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		DCC850D4FB4B77CEBF548215B3BAB9EC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		DE6EEEB753BE1B74821B7006EB1DE08B /* SQLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = "Supporting Files/SQLite/SQLite.h"; sourceTree = "<group>"; };
+		DFBFAD0A6377DEEB0D5E3962437B3FBA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E184E4F53870502363D2CB9A1CF29B83 /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = Source/Core/fts3_tokenizer.h; sourceTree = "<group>"; };
+		E3E188E2D8E7B96D57240A14D6530622 /* RMActionController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMActionController-umbrella.h"; sourceTree = "<group>"; };
+		E4D444AEBA23EC8025E1A148B1F6A892 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Source/Typed/Operators.swift; sourceTree = "<group>"; };
+		E6CB29905B4062D2245B522056F790E3 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Source/Typed/Operators.swift; sourceTree = "<group>"; };
+		E6DFC6A3C6B2AEF9B5512DBBA2EC0BCA /* AggregateFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AggregateFunctions.swift; path = Source/Typed/AggregateFunctions.swift; sourceTree = "<group>"; };
+		E7D7CBDA1DE804532B5F33B865E4DE75 /* SQLite-Bridging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SQLite-Bridging.h"; path = "Source/Core/SQLite-Bridging.h"; sourceTree = "<group>"; };
+		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8FBD130BD66C5AF386A4C6A974F1043 /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonTapGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		E91908747D699385A19AA91F7CBA4DF3 /* SWTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWTableViewCell.m; path = SWTableViewCell/PodFiles/SWTableViewCell.m; sourceTree = "<group>"; };
+		E92726552D0F61CF49493A06C4A7F922 /* SWCellScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWCellScrollView.m; path = SWTableViewCell/PodFiles/SWCellScrollView.m; sourceTree = "<group>"; };
+		EE89A230A4E90AF69AB68863D149D7A7 /* CoreFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreFunctions.swift; path = Source/Typed/CoreFunctions.swift; sourceTree = "<group>"; };
+		F03C16E6E46049A9B0D5BB9282E1AF7A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0540C77378D33401270714293B7E9A6 /* RMDateSelectionViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMDateSelectionViewController-umbrella.h"; sourceTree = "<group>"; };
+		F05A5549A7626936FA218B3987E8726F /* RMDateSelectionViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RMDateSelectionViewController.modulemap; sourceTree = "<group>"; };
+		F1DEE9CE156AABDDB70B24490D9AA071 /* RMActionController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMActionController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28D6B71F1B599CAB3DBE5599C68E0D4 /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Source/Core/Connection.swift; sourceTree = "<group>"; };
+		F55E8F879733C4C52403B76B737AB53D /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		F661F6342AF2D95B61D5CB882CB77E85 /* SWTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWTableViewCell.h; path = SWTableViewCell/PodFiles/SWTableViewCell.h; sourceTree = "<group>"; };
+		FE0710D2CCA1F7F90D889ABFF27832A2 /* SQLite.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLite.swift-dummy.m"; sourceTree = "<group>"; };
+		FE9F80E57FB4602DB6E769AD048878C4 /* SQLCipher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLCipher-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FF0F516968D03E168D6491405E55FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6685B5153CA441401A59DE848767BE /* Foundation.framework in Frameworks */,
+				17D08ABB89589E5931F42E3C16611116 /* SQLCipher.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53FB7D58C6562255D034C3EC2B5D354B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC83C588EC4FD1920E3F0882AC23C96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF3313BE77B3F6557FB618B605A29C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EF484A9BBE545A043647FAAD00475E /* Foundation.framework in Frameworks */,
+				B0F4AA3C4780F639B63F45614B1967D3 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E685DC2A1DA1C528B9087E15AD37F53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0AB8C4B2E0F5ED9FF346BCDCE5C26A /* Foundation.framework in Frameworks */,
+				EE3C079CED4917333A4D92CC700B9911 /* RMActionController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED83F83D82C5CBBD4B0E0BC005EE70B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D49CF7321C34BD6F2DEBC683B98E48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959CDCA211638DC52741C3AD73AD17A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D02F06739A0209C748CC5DDBE46569 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B510B6A594991BB545F0FBB8E78CAE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F27A6648F6D51201140DB34353ABA0 /* Foundation.framework in Frameworks */,
+				D32346ADF22F3AEF0BF585DEB8581050 /* QuartzCore.framework in Frameworks */,
+				641CED4A27C66AC51D16739A9615BA6E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D325A0790B7F30F1183362A93693B92B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ACB1D136AEDDD989CB96C2984665A51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36A92DB7333F47DE44A88277E2ABB6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE7B2094A0BCB77AA57341ED6BD86FC /* CoreGraphics.framework in Frameworks */,
+				A0608C1F4133E907B329323A4DE72259 /* Foundation.framework in Frameworks */,
+				BE715A5335064B8EBFB7A05167193A50 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A147151391D221D042D2BB6273E8524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B00BBC6FD99C8B5B14CEA4D694991609 /* JGProgressHUD.framework */,
+				5814B4C0AB9E274F334504EAA4FDE92B /* Pods.framework */,
+				A5C3215BB5F1BD20A152434D70A4DC37 /* RadioButton.framework */,
+				9E21F8B13F7DB6E175A519F52CAFAC77 /* RMActionController.framework */,
+				4E8A07AC81554C093BC71EA981448368 /* RMDateSelectionViewController.framework */,
+				64D887053DF5E1B2AA3910C60DE54CA6 /* SQLCipher.framework */,
+				4BC8F850C971573C57FEC141D2A887A9 /* SQLite.framework */,
+				00606D4B5F4C27102363F703141F89AC /* SQLiteCipher.framework */,
+				81032B5EB512AA6BC25684A483A7DD8A /* SWTableViewCell.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B57A56010B70AF1A087C844918A3F06 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FC75034F5F4DF78A5819FFDFFB47B4B /* Info.plist */,
+				D456A604ADB659BFCDF54174244808BE /* SQLite.swift.modulemap */,
+				4A7B5425910E0C63813CFC31770E8880 /* SQLite.swift.xcconfig */,
+				FE0710D2CCA1F7F90D889ABFF27832A2 /* SQLite.swift-dummy.m */,
+				7E15C2D42DD41B277B3685A57352911F /* SQLite.swift-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLite.swift";
+			sourceTree = "<group>";
+		};
+		4EB6E0BD638141D7E294BA9E70F75BBE /* SQLCipher */ = {
+			isa = PBXGroup;
+			children = (
+				F6856813FA2E06BEE3C0020139D47EC4 /* common */,
+				89A4A2CB53F36CB6DB82A168E705A957 /* Support Files */,
+			);
+			path = SQLCipher;
+			sourceTree = "<group>";
+		};
+		5087185EA89A51C03C03A2DD2CA0EEB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08AE435661CC939C37A735EB4DCE735C /* Info.plist */,
+				C461ABE57BA0E0E2D1C41D99CCA38C29 /* RadioButton.modulemap */,
+				43DAAADF475AD230A0912924B6BECD47 /* RadioButton.xcconfig */,
+				57E5EB3FE91678CD7B34A3E763C8C3B0 /* RadioButton-dummy.m */,
+				913898A1722CB4A87BAE693FBEA728C8 /* RadioButton-prefix.pch */,
+				26D0FC3AAB77C7519E717087FD8E91B8 /* RadioButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RadioButton";
+			sourceTree = "<group>";
+		};
+		64161E0E1AAD3717CFC03A8D4AA689F7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5426C6CA24BCD55F2B29F272857F8772 /* JGProgressHUD Resources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
+				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
+				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
+				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
+				F55E8F879733C4C52403B76B737AB53D /* Pods-dummy.m */,
+				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
+				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
+				8CE9431AB6D3FF64811CCD5BCE0F830D /* Pods-umbrella.h */,
+				1C0A9F272325ACC6527778FFDC25C7E4 /* Pods.debug.xcconfig */,
+				D849E02D5A55E771751A73FEE95507AC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		7A350AD53799527DD5F80E9CAC233EFF /* SWTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				86040EB54AAFD438BDB0D8CFB6CEFF03 /* NSMutableArray+SWUtilityButtons.h */,
+				19EE888D7443C4DC683C0873501C67C4 /* NSMutableArray+SWUtilityButtons.m */,
+				D35131ACADEB50E7F58C8ECEFB4283E3 /* SWCellScrollView.h */,
+				E92726552D0F61CF49493A06C4A7F922 /* SWCellScrollView.m */,
+				B39C54E5EE46B4F8EA4F61FDD95A3E97 /* SWLongPressGestureRecognizer.h */,
+				403D34881BD467E11AD08AD746278AC3 /* SWLongPressGestureRecognizer.m */,
+				F661F6342AF2D95B61D5CB882CB77E85 /* SWTableViewCell.h */,
+				E91908747D699385A19AA91F7CBA4DF3 /* SWTableViewCell.m */,
+				E8FBD130BD66C5AF386A4C6A974F1043 /* SWUtilityButtonTapGestureRecognizer.h */,
+				D2951819E9664EB2BC1E44521C683F9D /* SWUtilityButtonTapGestureRecognizer.m */,
+				D76D4CD727BD7465F6DAD2E5DD082FDA /* SWUtilityButtonView.h */,
+				868E9B49D71A158FB50E7D1328844E39 /* SWUtilityButtonView.m */,
+				7D900F773037F8A7AFAC25F695A2AA40 /* Support Files */,
+			);
+			path = SWTableViewCell;
+			sourceTree = "<group>";
+		};
+		7D900F773037F8A7AFAC25F695A2AA40 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				515862F60C462ADD02E8C792D0EF1A45 /* Info.plist */,
+				45247BEE11E1640F3C87989790ADF947 /* SWTableViewCell.modulemap */,
+				9A33D24B092CE458C572411566DD164B /* SWTableViewCell.xcconfig */,
+				05661A139DA2E3E427339A9C305A9230 /* SWTableViewCell-dummy.m */,
+				CE3A0BA5F7A21B87900E2BBC559B84EF /* SWTableViewCell-prefix.pch */,
+				9C1C86133BE3CA076E9E78FBCB8F6760 /* SWTableViewCell-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SWTableViewCell";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				90413C59684A2D13FB50D0BD57E2C3C9 /* Frameworks */,
+				C9B6BFD5922EB4DB692B3148E4E22445 /* Pods */,
+				0A147151391D221D042D2BB6273E8524 /* Products */,
+				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84A675343B73633235C44083F20D2D08 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C352833B9D5ADE1F895202225C1767FE /* CoreGraphics.framework */,
+				C5C3454BE59946ECC3C4FB53FAE3A277 /* Foundation.framework */,
+				DCC850D4FB4B77CEBF548215B3BAB9EC /* QuartzCore.framework */,
+				0643DB730C945BE5357A025356C43ECE /* Security.framework */,
+				A328EBF7A0E633D4197C3345655EE7AC /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		89A4A2CB53F36CB6DB82A168E705A957 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFBFAD0A6377DEEB0D5E3962437B3FBA /* Info.plist */,
+				D1966D55B641B1D372D6B2F5D454388A /* SQLCipher.modulemap */,
+				B8E706F8F0858BED226B4FB18DE44BAB /* SQLCipher.xcconfig */,
+				6921AEE8BCB38E80D0F27795CA5EA9BB /* SQLCipher-dummy.m */,
+				53EDD7E1BD77B55E7331FA5DD871AE0D /* SQLCipher-prefix.pch */,
+				FE9F80E57FB4602DB6E769AD048878C4 /* SQLCipher-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLCipher";
+			sourceTree = "<group>";
+		};
+		90413C59684A2D13FB50D0BD57E2C3C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1DEE9CE156AABDDB70B24490D9AA071 /* RMActionController.framework */,
+				6E20E42761223554AA1BF6F601B24F23 /* SQLCipher.framework */,
+				84A675343B73633235C44083F20D2D08 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C857950D39186617F4A0ACD9EB12F13 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14552916DF8BA49C77A154110BCFA0AC /* Info.plist */,
+				8712D5B2E40712E62ABA987E97BC3C91 /* JGProgressHUD.modulemap */,
+				70B784FFD81988C011183E376AE63778 /* JGProgressHUD.xcconfig */,
+				54A80FC2B54FDDB8D5784BE2EAD43D7D /* JGProgressHUD-dummy.m */,
+				55E5A4662EB6CA26C2D3CB14184FDF01 /* JGProgressHUD-prefix.pch */,
+				6B9F4500D5E1902CB8324F42EE28A95E /* JGProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JGProgressHUD";
+			sourceTree = "<group>";
+		};
+		A1659B52A61BC4F337F011EE625E4A05 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				558C849CB760C536FDA6631BF16C1B99 /* Info.plist */,
+				3FBEA6104F02DA07CEC41505CAC596F1 /* SQLiteCipher.swift.modulemap */,
+				9476923A92F63250C4A91C686BDE0DCF /* SQLiteCipher.swift.xcconfig */,
+				14A067379CACD6F0BBB01F6B0D079647 /* SQLiteCipher.swift-dummy.m */,
+				D03036EFC36E1061D4F6AD0F8F89B99E /* SQLiteCipher.swift-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLiteCipher.swift";
+			sourceTree = "<group>";
+		};
+		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C34AE8A224A379D4C0D88B2911D55115 /* SQLiteCipher.swift */ = {
+			isa = PBXGroup;
+			children = (
+				755A5B6AC20F5B4F53A462D0AD5734E3 /* AggregateFunctions.swift */,
+				94316C339FDCE947C5C726E5ABB4B4E7 /* Blob.swift */,
+				2DBBE7E2A1106979086CE96B5650D287 /* Cipher.swift */,
+				CA81EA5992C053808B2FD15D6931EA22 /* Collation.swift */,
+				F28D6B71F1B599CAB3DBE5599C68E0D4 /* Connection.swift */,
+				EE89A230A4E90AF69AB68863D149D7A7 /* CoreFunctions.swift */,
+				CBFC1A7EA0DF60CBF7D55F7807ED4619 /* CustomFunctions.swift */,
+				2E0F576147367BF4E4F043506666DA9A /* Expression.swift */,
+				D844FD43F5CEFFE57EFEECBEE98DE668 /* Foundation.swift */,
+				B19F3D8641C6599A7D1DD1564D6BE3F9 /* fts3_tokenizer.h */,
+				523F02999DB6446A67956F30F4196396 /* FTS4.swift */,
+				3E2DDD70F7844372C84694831112E29E /* Helpers.swift */,
+				E6CB29905B4062D2245B522056F790E3 /* Operators.swift */,
+				BB73F2C072309033EA5B6D893AA6B11E /* Query.swift */,
+				593281D703DE141FA324E55B5CBCB114 /* R*Tree.swift */,
+				BDEDF28B088BAFB47EF0ED223430A06A /* Schema.swift */,
+				8278BDADD88F0892BAC821536851358F /* Setter.swift */,
+				C6E20EF8A9DFC5FD79E1593F9121DEF3 /* SQLite-Bridging.h */,
+				18CA618D99B93D6916A778C793D0FA61 /* SQLite-Bridging.m */,
+				AB425AB5F839F06ECACA1CCF6D366AC6 /* SQLiteCipher.h */,
+				3E517BE2127A79EA0BED40FADEFAA08D /* Statement.swift */,
+				D5F1FEEF2E80BA7E490B76E63F9C2F7C /* Value.swift */,
+				A1659B52A61BC4F337F011EE625E4A05 /* Support Files */,
+			);
+			path = SQLiteCipher.swift;
+			sourceTree = "<group>";
+		};
+		C77FE9CF173AF9385D1C36C4A9007FAC /* RMDateSelectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0EE3F635E0267EB1831CDF452772875E /* RMDateSelectionViewController.h */,
+				B850075FC47365740F2B11E7484D279F /* RMDateSelectionViewController.m */,
+				F487ED745C8687DBA62F59652432E4C4 /* Support Files */,
+			);
+			path = RMDateSelectionViewController;
+			sourceTree = "<group>";
+		};
+		C9B6BFD5922EB4DB692B3148E4E22445 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2698EC8D6A524DAE19C97A18E585CE1 /* JGProgressHUD */,
+				F51FD2D2F8A79D2CD42A56FEB88B58AF /* RadioButton */,
+				E4F1E1F59E4606AB16AB4A78AEA50315 /* RMActionController */,
+				C77FE9CF173AF9385D1C36C4A9007FAC /* RMDateSelectionViewController */,
+				4EB6E0BD638141D7E294BA9E70F75BBE /* SQLCipher */,
+				FFE21E33AAD8D64524749F618762E694 /* SQLite.swift */,
+				C34AE8A224A379D4C0D88B2911D55115 /* SQLiteCipher.swift */,
+				7A350AD53799527DD5F80E9CAC233EFF /* SWTableViewCell */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4F1E1F59E4606AB16AB4A78AEA50315 /* RMActionController */ = {
+			isa = PBXGroup;
+			children = (
+				57C2B101A998B942D71F02EBE378BA12 /* RMActionController.h */,
+				ABBCB93AA39AC6339E4908785AA582B4 /* RMActionController.m */,
+				E833BBF41B550605B71571A0027E7E92 /* Support Files */,
+			);
+			path = RMActionController;
+			sourceTree = "<group>";
+		};
+		E833BBF41B550605B71571A0027E7E92 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F03C16E6E46049A9B0D5BB9282E1AF7A /* Info.plist */,
+				D689EA9136A3932F688E6186ED20CC7F /* RMActionController.modulemap */,
+				2D9AB78E82D6B82D34DBB3C3CCE89422 /* RMActionController.xcconfig */,
+				AC96194C20093353CEED433549EFA4DE /* RMActionController-dummy.m */,
+				A03D79BF20AAF14D88AEBAE0BBB8485C /* RMActionController-prefix.pch */,
+				E3E188E2D8E7B96D57240A14D6530622 /* RMActionController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RMActionController";
+			sourceTree = "<group>";
+		};
+		F2698EC8D6A524DAE19C97A18E585CE1 /* JGProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				1863963801E0BE7D16696F02F71444C3 /* JGProgressHUD.h */,
+				822FB9B5A6DD91C130BB4C666D545158 /* JGProgressHUD.m */,
+				835634485FAA7F4BD04BD10ADBE844B4 /* JGProgressHUD-Defines.h */,
+				B96035EAFE4862285418A1E3B33B1628 /* JGProgressHUDAnimation.h */,
+				C17EC841E3398515BE7C6CB05996BB26 /* JGProgressHUDAnimation.m */,
+				5296702FA7D7B7A2CD740BCC102AFC26 /* JGProgressHUDErrorIndicatorView.h */,
+				9980D1CE188DCD7692DC4212DB960CA9 /* JGProgressHUDErrorIndicatorView.m */,
+				56C396CA146CC1633F7E9D47F72BC1BC /* JGProgressHUDFadeAnimation.h */,
+				7C7D2B7247EFE03A3931E50904384E39 /* JGProgressHUDFadeAnimation.m */,
+				23C6205EFA192A241B56FA065E8F0EEF /* JGProgressHUDFadeZoomAnimation.h */,
+				8E2AA8A26018E56BC22BB8AF9D638790 /* JGProgressHUDFadeZoomAnimation.m */,
+				653C137DAE235C5812426548E3EFB967 /* JGProgressHUDImageIndicatorView.h */,
+				BF91F7BD981640517175A6C482D08C9D /* JGProgressHUDImageIndicatorView.m */,
+				AD8945E9FCC2710EBA31CB99CC332D87 /* JGProgressHUDIndeterminateIndicatorView.h */,
+				66E3F4356BCB5F6EAF0ED13C27BDB5D8 /* JGProgressHUDIndeterminateIndicatorView.m */,
+				58752DBFC2B4A58431918493D36A346D /* JGProgressHUDIndicatorView.h */,
+				3E14364207F056A7DF879A24C883AB96 /* JGProgressHUDIndicatorView.m */,
+				28F527B1B299800337CFC409991293EF /* JGProgressHUDPieIndicatorView.h */,
+				BB71E85FB5B422732391662E90D45D5C /* JGProgressHUDPieIndicatorView.m */,
+				0755BB85850C717C809F00584FB568F6 /* JGProgressHUDRingIndicatorView.h */,
+				119253F15637C400135F98F6BE4C3CA2 /* JGProgressHUDRingIndicatorView.m */,
+				4DA1C83445B0EF462A771A82E745F03E /* JGProgressHUDSuccessIndicatorView.h */,
+				8835163E2FF5F807D5ADD1E03AE3C91F /* JGProgressHUDSuccessIndicatorView.m */,
+				64161E0E1AAD3717CFC03A8D4AA689F7 /* Resources */,
+				9C857950D39186617F4A0ACD9EB12F13 /* Support Files */,
+			);
+			path = JGProgressHUD;
+			sourceTree = "<group>";
+		};
+		F487ED745C8687DBA62F59652432E4C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DBB7DF5C5BB80338ECD611B374EF41D /* Info.plist */,
+				F05A5549A7626936FA218B3987E8726F /* RMDateSelectionViewController.modulemap */,
+				6EADB3EB1C6F0F2B2DA458C0DB4285AB /* RMDateSelectionViewController.xcconfig */,
+				0D808A2F7EAFBA7250D18050D5A494C9 /* RMDateSelectionViewController-dummy.m */,
+				1CD4C33506E440EC22C051341C13AA37 /* RMDateSelectionViewController-prefix.pch */,
+				F0540C77378D33401270714293B7E9A6 /* RMDateSelectionViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RMDateSelectionViewController";
+			sourceTree = "<group>";
+		};
+		F51FD2D2F8A79D2CD42A56FEB88B58AF /* RadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				29E3BC88696B1DD5ECE6612DBA0A6105 /* RadioButton.h */,
+				0816303E2695495E290B7CEFE9502ABE /* RadioButton.m */,
+				5087185EA89A51C03C03A2DD2CA0EEB3 /* Support Files */,
+			);
+			path = RadioButton;
+			sourceTree = "<group>";
+		};
+		F6856813FA2E06BEE3C0020139D47EC4 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				7CEA6985ABB07863C4BEDF84DD2F4B5C /* sqlite3.c */,
+				24F41AA03D52606A783AC036B56F84A9 /* sqlite3.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		FFE21E33AAD8D64524749F618762E694 /* SQLite.swift */ = {
+			isa = PBXGroup;
+			children = (
+				E6DFC6A3C6B2AEF9B5512DBBA2EC0BCA /* AggregateFunctions.swift */,
+				3DC116E31F81B3CD0C0E9826296FB018 /* Blob.swift */,
+				88D77E95164C18FD758C79B30378D228 /* Collation.swift */,
+				1BDE421D3D1A5C51E876364C19BCCEA4 /* Connection.swift */,
+				A5074BB1940A7F400562E07AF22E7870 /* CoreFunctions.swift */,
+				4BDFD0FE53C7C57F7D783986CD73BE5C /* CustomFunctions.swift */,
+				C09587B99A060EDAA1A398435075A2FA /* Expression.swift */,
+				691ED9BDE4CFB6FE8E7FC46B7E1BBC6E /* Foundation.swift */,
+				E184E4F53870502363D2CB9A1CF29B83 /* fts3_tokenizer.h */,
+				A31ADAC1E0C1BD157AC478131A1498C0 /* FTS4.swift */,
+				66FB6A098304637A1BCFCF774C0392A6 /* Helpers.swift */,
+				E4D444AEBA23EC8025E1A148B1F6A892 /* Operators.swift */,
+				CAAF7ED0BB2D58624B554867BF00FC6F /* Query.swift */,
+				CE6C74270713EE4DDB44836D7348DEEB /* R*Tree.swift */,
+				CA0238E3A4800DC553D951C5C88AD4A5 /* Schema.swift */,
+				AF3414E31FDD1D58EB4D3594D622E078 /* Setter.swift */,
+				DE6EEEB753BE1B74821B7006EB1DE08B /* SQLite.h */,
+				E7D7CBDA1DE804532B5F33B865E4DE75 /* SQLite-Bridging.h */,
+				AD93A9C9E7E1C9E845B6C8AB4F93D6F0 /* SQLite-Bridging.m */,
+				4E318BB92C56FB1619F728DFE6E663DB /* Statement.swift */,
+				A97D628D020421539B1E50ABC0036094 /* Value.swift */,
+				4B57A56010B70AF1A087C844918A3F06 /* Support Files */,
+			);
+			path = SQLite.swift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16B3C97FD4CF24224C12945935A68F85 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A17825EE46DEC03951A627FC46742AC /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185A5532307529197390C9E2E402AE66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07085059FF45C028900FF5BC13D8E4E4 /* RMDateSelectionViewController-umbrella.h in Headers */,
+				AD98D2DA24865D8A63568142A76476CC /* RMDateSelectionViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305CA5864F3B3053498E0971BF64D371 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D743A5CD0E27C31F3BEAB5FBD1952FFD /* NSMutableArray+SWUtilityButtons.h in Headers */,
+				60A39280229DE8F9A71E8824F93AED53 /* SWCellScrollView.h in Headers */,
+				F12029988B585D3494F0FEB407D5484E /* SWLongPressGestureRecognizer.h in Headers */,
+				720E553C5B0916F0C8748788420E1797 /* SWTableViewCell-umbrella.h in Headers */,
+				1D00C2806858832C5A3F3EB8A5E5131D /* SWTableViewCell.h in Headers */,
+				D9156B06A17FD9870EFCF62B8D04BA0A /* SWUtilityButtonTapGestureRecognizer.h in Headers */,
+				17D27845DD99D456D7D0AE79A338B8C5 /* SWUtilityButtonView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		535AE41DFAC443ABEFCF675D0FD8BB20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACF0E91B9D3D3C948387044131CE2DA /* fts3_tokenizer.h in Headers */,
+				8F68E0AC82AD75B059EA81E7A46041ED /* SQLite-Bridging.h in Headers */,
+				4B75E5CDBE8743901B0A7DE84E47DF54 /* SQLite.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92924137CB2D867B67A016A3411ADBB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D028E50F6CF02CB5E2CBB7958D4F86 /* fts3_tokenizer.h in Headers */,
+				9D349742069AA83277DC645FA52E7A46 /* SQLite-Bridging.h in Headers */,
+				322F0E95364C504C2CE97D9C4D6CC990 /* SQLiteCipher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F667F216A9640C07F71CA5B50842B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBDF6EB97AA196ED7C273D37BD28E6B /* RadioButton-umbrella.h in Headers */,
+				36F18952CCD0D479E9107136E16B7558 /* RadioButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3BDE8746CD2C00FEC0A1671E522C7AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB5FF4CA2BD5D07E853A295EB40802F /* SQLCipher-umbrella.h in Headers */,
+				42651DB43E952EF39CEFD72E265F8A6E /* sqlite3.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57AEA60D8DAED895D319E9320E46797 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7996E7F411A6CC5AB74A00B0204B4D /* JGProgressHUD-Defines.h in Headers */,
+				14B93539507B779B5C4A16F97140B450 /* JGProgressHUD-umbrella.h in Headers */,
+				2F09FC89A0602BC7DD4947CDF15C13CF /* JGProgressHUD.h in Headers */,
+				6F183BA61CFBF134844476190F055A8F /* JGProgressHUDAnimation.h in Headers */,
+				C7FDA083DEDCE5FF27FCDBEDBE26C64C /* JGProgressHUDErrorIndicatorView.h in Headers */,
+				B7B17DA65FEFC0E822F09CE25003EE19 /* JGProgressHUDFadeAnimation.h in Headers */,
+				81094C06863A33958AC9275EED888D8D /* JGProgressHUDFadeZoomAnimation.h in Headers */,
+				5709B54399CEF3A304BAB5860E175894 /* JGProgressHUDImageIndicatorView.h in Headers */,
+				5C8A82D733DDBB0934FEB82C51381D86 /* JGProgressHUDIndeterminateIndicatorView.h in Headers */,
+				BE758732FC9C8F17EE4FF835CB264DEA /* JGProgressHUDIndicatorView.h in Headers */,
+				0BE14BC03F323201F3ACA62935DACC95 /* JGProgressHUDPieIndicatorView.h in Headers */,
+				741C294ECDE13B2112475B5278B60A22 /* JGProgressHUDRingIndicatorView.h in Headers */,
+				6EE9EFC9FC314E6D5155E7C3956C25F6 /* JGProgressHUDSuccessIndicatorView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42E42AAB4EEBD8450F3750D23BE3499 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C014630E84C4D353C153D7260D7BF61 /* RMActionController-umbrella.h in Headers */,
+				A42C7CAC1D53613F271654E48CF8C9CD /* RMActionController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DB66A22337CA6BA2552B96589051B2E /* RMActionController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010A7CDD59AD770B151F0E0F6E5ADE22 /* Build configuration list for PBXNativeTarget "RMActionController" */;
+			buildPhases = (
+				83B8921B113D953DC7B3214989425070 /* Sources */,
+				F36A92DB7333F47DE44A88277E2ABB6E /* Frameworks */,
+				F42E42AAB4EEBD8450F3750D23BE3499 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMActionController;
+			productName = RMActionController;
+			productReference = 9E21F8B13F7DB6E175A519F52CAFAC77 /* RMActionController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		183425D34DD1B84BA7BCDFA202A777C6 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FCF8705ED8BD9C47EA47ADD81FC2A26 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				A1022084FC6AD12DC2279B376292D7ED /* Sources */,
+				959CDCA211638DC52741C3AD73AD17A2 /* Frameworks */,
+				16B3C97FD4CF24224C12945935A68F85 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0E4DEE558BE76446C6A47A91F00396A /* PBXTargetDependency */,
+				B57A0AFBB59ADCFA2784088853461BE1 /* PBXTargetDependency */,
+				7DAA4D6B30517B4BA8938B54FE76FF4D /* PBXTargetDependency */,
+				37938C752C70E6ED740F5DD64488E4D9 /* PBXTargetDependency */,
+				6C0EFBEB2C7DF19269C7203312460ABB /* PBXTargetDependency */,
+				D0484542D70C2F38E82B034B04F739D2 /* PBXTargetDependency */,
+				12F08B233E6CD4E81D61ECA0736E31D7 /* PBXTargetDependency */,
+				DB2C9A41BC441C444796D07DFA3193B7 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 5814B4C0AB9E274F334504EAA4FDE92B /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		34FF3260069207E50EED7267CC68BDA4 /* RadioButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC3FE6D90BA69B0A5D5C916E5E1D725 /* Build configuration list for PBXNativeTarget "RadioButton" */;
+			buildPhases = (
+				B66610A1FCD9F63C5C0106568AC863BB /* Sources */,
+				D325A0790B7F30F1183362A93693B92B /* Frameworks */,
+				D8F667F216A9640C07F71CA5B50842B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadioButton;
+			productName = RadioButton;
+			productReference = A5C3215BB5F1BD20A152434D70A4DC37 /* RadioButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3B02DED5F7448F208F3DF1EA6BD4498E /* SQLiteCipher.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9877D94152B2280B27884079232CC091 /* Build configuration list for PBXNativeTarget "SQLiteCipher.swift" */;
+			buildPhases = (
+				7D6E57820C573D4F57D70EFDF8F35FDD /* Sources */,
+				3FF0F516968D03E168D6491405E55FF5 /* Frameworks */,
+				92924137CB2D867B67A016A3411ADBB2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7834C5F9BBAAEAF98AAD0B0589C75120 /* PBXTargetDependency */,
+			);
+			name = SQLiteCipher.swift;
+			productName = SQLiteCipher.swift;
+			productReference = 00606D4B5F4C27102363F703141F89AC /* SQLiteCipher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F931DBA32E5B4CCE359DB807D0AB682 /* SWTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B13A3A2FC2919CDD17D56762F8BB608 /* Build configuration list for PBXNativeTarget "SWTableViewCell" */;
+			buildPhases = (
+				643448A4C24E8A229A5B3D4C5D2556BE /* Sources */,
+				53FB7D58C6562255D034C3EC2B5D354B /* Frameworks */,
+				305CA5864F3B3053498E0971BF64D371 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWTableViewCell;
+			productName = SWTableViewCell;
+			productReference = 81032B5EB512AA6BC25684A483A7DD8A /* SWTableViewCell.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		57871DEE1DD900D8C5580215B40D4B21 /* SQLCipher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F666248BBB6D633CFE5FE80FE8E958EE /* Build configuration list for PBXNativeTarget "SQLCipher" */;
+			buildPhases = (
+				A477B8E811B3E232AEA269BEA2C40D8B /* Sources */,
+				6BF3313BE77B3F6557FB618B605A29C6 /* Frameworks */,
+				E3BDE8746CD2C00FEC0A1671E522C7AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLCipher;
+			productName = SQLCipher;
+			productReference = 64D887053DF5E1B2AA3910C60DE54CA6 /* SQLCipher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		78269029898312DEC12343E232146814 /* RMDateSelectionViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24AD3EBE959976E573BA089C81375CEF /* Build configuration list for PBXNativeTarget "RMDateSelectionViewController" */;
+			buildPhases = (
+				0ED9E4DA8B4A49FFE0F3A53729780CCC /* Sources */,
+				7E685DC2A1DA1C528B9087E15AD37F53 /* Frameworks */,
+				185A5532307529197390C9E2E402AE66 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60A3E3A9E22C7B23911AD7E66D77DC8B /* PBXTargetDependency */,
+			);
+			name = RMDateSelectionViewController;
+			productName = RMDateSelectionViewController;
+			productReference = 4E8A07AC81554C093BC71EA981448368 /* RMDateSelectionViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91B668AACFCEC937DDF9E31C1D103AA6 /* JGProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7733540F2158ABBDA1134DD6D4EBCB97 /* Build configuration list for PBXNativeTarget "JGProgressHUD" */;
+			buildPhases = (
+				F05725774CF064F0B89829337CEC5AE5 /* Sources */,
+				B510B6A594991BB545F0FBB8E78CAE96 /* Frameworks */,
+				E57AEA60D8DAED895D319E9320E46797 /* Headers */,
+				BA631DAAE7F32C3BC8B6EAE4BB064AD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JGProgressHUD;
+			productName = JGProgressHUD;
+			productReference = B00BBC6FD99C8B5B14CEA4D694991609 /* JGProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9445402A774BC7447929709E27EF67B5 /* SQLite.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6F364E0C944153CC04D25C3D707FC86 /* Build configuration list for PBXNativeTarget "SQLite.swift" */;
+			buildPhases = (
+				38FECD425316BD695CDA3649B18414ED /* Sources */,
+				8ED83F83D82C5CBBD4B0E0BC005EE70B /* Frameworks */,
+				535AE41DFAC443ABEFCF675D0FD8BB20 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLite.swift;
+			productName = SQLite.swift;
+			productReference = 4BC8F850C971573C57FEC141D2A887A9 /* SQLite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0A147151391D221D042D2BB6273E8524 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91B668AACFCEC937DDF9E31C1D103AA6 /* JGProgressHUD */,
+				183425D34DD1B84BA7BCDFA202A777C6 /* Pods */,
+				34FF3260069207E50EED7267CC68BDA4 /* RadioButton */,
+				0DB66A22337CA6BA2552B96589051B2E /* RMActionController */,
+				78269029898312DEC12343E232146814 /* RMDateSelectionViewController */,
+				57871DEE1DD900D8C5580215B40D4B21 /* SQLCipher */,
+				9445402A774BC7447929709E27EF67B5 /* SQLite.swift */,
+				3B02DED5F7448F208F3DF1EA6BD4498E /* SQLiteCipher.swift */,
+				4F931DBA32E5B4CCE359DB807D0AB682 /* SWTableViewCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA631DAAE7F32C3BC8B6EAE4BB064AD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E7BF8A26D4D29FDCEBF58EEAAA92E1 /* JGProgressHUD Resources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ED9E4DA8B4A49FFE0F3A53729780CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C6E014D4FAB2DA39742644F7363F18 /* RMDateSelectionViewController-dummy.m in Sources */,
+				33567414BB1CB51A6184D7928E9B8C73 /* RMDateSelectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FECD425316BD695CDA3649B18414ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F779538A3A8E2DE0FB5FAAF342869C77 /* AggregateFunctions.swift in Sources */,
+				09D2CFF51BD26B5ACA45F555A9DC27A2 /* Blob.swift in Sources */,
+				782AD842113394345874E2C63C276094 /* Collation.swift in Sources */,
+				A74D9D6524BE3D20DBCF8A8639F447C9 /* Connection.swift in Sources */,
+				1CE8B1202CB834227D983917848F031F /* CoreFunctions.swift in Sources */,
+				A63EE00CCEE5DD1C139D797500796913 /* CustomFunctions.swift in Sources */,
+				6FAC880BC770860B7385B796487D3B59 /* Expression.swift in Sources */,
+				C809CEB88BC7E2952C41FD25D30CC70C /* Foundation.swift in Sources */,
+				2B2091437FA376305BC9B643E48BAB64 /* FTS4.swift in Sources */,
+				831752BF8A29257C88FE8EA2A3A6A7FC /* Helpers.swift in Sources */,
+				3EFB67CB27521A2A74134A600A0ECE70 /* Operators.swift in Sources */,
+				47BD7B4E5BE28809A87E72F9F56321A7 /* Query.swift in Sources */,
+				DD7DBEA78CC627591DA8B0E994B4E1A2 /* R*Tree.swift in Sources */,
+				8A9C66296B871669FB6559461CC846AD /* Schema.swift in Sources */,
+				6BD19AA95FDB4C516FA2627919F5A7F7 /* Setter.swift in Sources */,
+				03390DEE166FF7E1352E12DC2C34E67E /* SQLite-Bridging.m in Sources */,
+				83C2AC30DFD7FBFA14E90B5E87ED9574 /* SQLite.swift-dummy.m in Sources */,
+				6363D127A4FAE49AE170770A107D81D2 /* Statement.swift in Sources */,
+				B6C0FA911C709BB076A83BAB90EFE209 /* Value.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643448A4C24E8A229A5B3D4C5D2556BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5223C38B7F198D6C46230DB25AE7875 /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				3DE906DAAFE9BD76D57C10C67717C7A1 /* SWCellScrollView.m in Sources */,
+				DA825EA8A350387C663E38D50168E737 /* SWLongPressGestureRecognizer.m in Sources */,
+				41D58274F042D532F50F744805AF70A4 /* SWTableViewCell-dummy.m in Sources */,
+				99F7E1A0A161D7997705433D96B24224 /* SWTableViewCell.m in Sources */,
+				763CBCBD50E118D2100E0D1F0F5D5686 /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				3F76EAFE81BD127DDA81C5C4E2B80BA8 /* SWUtilityButtonView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6E57820C573D4F57D70EFDF8F35FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55536DC8A678897BEC7D2831EE36F925 /* AggregateFunctions.swift in Sources */,
+				695445EFEBD7A4A75C8B4057CD0ACEA4 /* Blob.swift in Sources */,
+				C07B37BAE04C98BF6CD7E294E32B2F42 /* Cipher.swift in Sources */,
+				7E1341164189DCEC115F65A195941DC9 /* Collation.swift in Sources */,
+				534EDAD1106BE6082995224CE1731DE9 /* Connection.swift in Sources */,
+				5196FBBE69D933790FFC5DE47B77759E /* CoreFunctions.swift in Sources */,
+				313F285541C4A303D0539855713185C5 /* CustomFunctions.swift in Sources */,
+				31FF3225FC7C55807D5E4D8AA4EFD1B7 /* Expression.swift in Sources */,
+				C88D89077FF1FA7F421AC87C05970245 /* Foundation.swift in Sources */,
+				9B763E5D5A029F4048C49A641E962B13 /* FTS4.swift in Sources */,
+				8BB5B6FC8583BC74ADBD35BBDE989E36 /* Helpers.swift in Sources */,
+				B50325B0823ED30A2AA542A1B4396854 /* Operators.swift in Sources */,
+				E5A6793CA0A9BA1260E12EE32C9AA813 /* Query.swift in Sources */,
+				81F04B4F89E8E7D6F6B0746F9EA328FC /* R*Tree.swift in Sources */,
+				F47397696826E40D385D6D054AFCAA79 /* Schema.swift in Sources */,
+				17CA96F771C9180149812DF1900EB46F /* Setter.swift in Sources */,
+				0340A6E22214F38B5440C73974F32813 /* SQLite-Bridging.m in Sources */,
+				41BF87FB3EF8F3EB0F755F1F8FFE5134 /* SQLiteCipher.swift-dummy.m in Sources */,
+				A67ADE217551FDCAC91CA237D9A659AE /* Statement.swift in Sources */,
+				83232FE0AC7FA127F92CD21C96C245EB /* Value.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B8921B113D953DC7B3214989425070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9230F4E8946C6A25423DEE06546133F1 /* RMActionController-dummy.m in Sources */,
+				405575F9B45762BA1300DDD8ED030464 /* RMActionController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1022084FC6AD12DC2279B376292D7ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1B21C1390F5EA645CED57EB46E97EF /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A477B8E811B3E232AEA269BEA2C40D8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675782C6A880E9B2F8AF5D5EE42E8D34 /* SQLCipher-dummy.m in Sources */,
+				82C5972DF438A03C978600A2BB0C1584 /* sqlite3.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66610A1FCD9F63C5C0106568AC863BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB94C1D89F1FA380FAE3830B87965A28 /* RadioButton-dummy.m in Sources */,
+				5C4D974211060707410883D9A44FBB3B /* RadioButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F05725774CF064F0B89829337CEC5AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D616CA4EABB2AF7DE011295302958410 /* JGProgressHUD-dummy.m in Sources */,
+				5A7A6F4E963D2F03FC35C674EF6F6EAF /* JGProgressHUD.m in Sources */,
+				86A264DA49242E4813F3B7F616345C56 /* JGProgressHUDAnimation.m in Sources */,
+				21A4BEF9C66EE398D35D142F2B7E3498 /* JGProgressHUDErrorIndicatorView.m in Sources */,
+				FBC373370983BD7A2EE3A150905C59AD /* JGProgressHUDFadeAnimation.m in Sources */,
+				F6EF3FDF07579E60163209B3780EFD1F /* JGProgressHUDFadeZoomAnimation.m in Sources */,
+				E404AEACD857FC283980C7961361A382 /* JGProgressHUDImageIndicatorView.m in Sources */,
+				CE8EB580F1D48CCF8487E4770156BFA4 /* JGProgressHUDIndeterminateIndicatorView.m in Sources */,
+				61AD3C5A14DAFBF40893DF38B59A6E67 /* JGProgressHUDIndicatorView.m in Sources */,
+				78E88C1B3FCCED683AE1BDA9C46DC9BD /* JGProgressHUDPieIndicatorView.m in Sources */,
+				E6124524F463BA72CD3D650B597642C9 /* JGProgressHUDRingIndicatorView.m in Sources */,
+				0D35F35319EBE75BA6EBF36ACA0CB2C8 /* JGProgressHUDSuccessIndicatorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12F08B233E6CD4E81D61ECA0736E31D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLiteCipher.swift;
+			target = 3B02DED5F7448F208F3DF1EA6BD4498E /* SQLiteCipher.swift */;
+			targetProxy = A48C70AFF4FB7C27166418C11A9CEE04 /* PBXContainerItemProxy */;
+		};
+		37938C752C70E6ED740F5DD64488E4D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RadioButton;
+			target = 34FF3260069207E50EED7267CC68BDA4 /* RadioButton */;
+			targetProxy = BEBC9AD8D3E711DE99F6C1674BEB4993 /* PBXContainerItemProxy */;
+		};
+		60A3E3A9E22C7B23911AD7E66D77DC8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RMActionController;
+			target = 0DB66A22337CA6BA2552B96589051B2E /* RMActionController */;
+			targetProxy = 68410676A5693C9B66416C8DB22F2B87 /* PBXContainerItemProxy */;
+		};
+		6C0EFBEB2C7DF19269C7203312460ABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLCipher;
+			target = 57871DEE1DD900D8C5580215B40D4B21 /* SQLCipher */;
+			targetProxy = A4EC8CFD6790F4AD795BE7D1BECCD8CA /* PBXContainerItemProxy */;
+		};
+		7834C5F9BBAAEAF98AAD0B0589C75120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLCipher;
+			target = 57871DEE1DD900D8C5580215B40D4B21 /* SQLCipher */;
+			targetProxy = F1322DBBC9BF3324061D15A805607C4C /* PBXContainerItemProxy */;
+		};
+		7DAA4D6B30517B4BA8938B54FE76FF4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RMDateSelectionViewController;
+			target = 78269029898312DEC12343E232146814 /* RMDateSelectionViewController */;
+			targetProxy = 0A9B1A59E10218644121D2992AE23A25 /* PBXContainerItemProxy */;
+		};
+		B57A0AFBB59ADCFA2784088853461BE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RMActionController;
+			target = 0DB66A22337CA6BA2552B96589051B2E /* RMActionController */;
+			targetProxy = 3CA92828D12E6FBEA27EF021EE980945 /* PBXContainerItemProxy */;
+		};
+		D0484542D70C2F38E82B034B04F739D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLite.swift;
+			target = 9445402A774BC7447929709E27EF67B5 /* SQLite.swift */;
+			targetProxy = 6D19AD10F321C24B38FE14E3AF5A68B3 /* PBXContainerItemProxy */;
+		};
+		DB2C9A41BC441C444796D07DFA3193B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWTableViewCell;
+			target = 4F931DBA32E5B4CCE359DB807D0AB682 /* SWTableViewCell */;
+			targetProxy = DB0DE9FC8E8B4053B2BDF1DD77FCAA18 /* PBXContainerItemProxy */;
+		};
+		E0E4DEE558BE76446C6A47A91F00396A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JGProgressHUD;
+			target = 91B668AACFCEC937DDF9E31C1D103AA6 /* JGProgressHUD */;
+			targetProxy = 6F4C9656DC656C655F8E523C4B2DF429 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A6AD4E47395AD2E6EEB5716DF167BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D9AB78E82D6B82D34DBB3C3CCE89422 /* RMActionController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.4;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RMActionController/RMActionController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMActionController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RMActionController/RMActionController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RMActionController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		193CD29C2A9EBA167AF52F2B7A03B119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70B784FFD81988C011183E376AE63778 /* JGProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.3.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JGProgressHUD/JGProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JGProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JGProgressHUD/JGProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JGProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4302B28A3B3B04A3118D8CE74125C0B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A33D24B092CE458C572411566DD164B /* SWTableViewCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.3.7;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.3.7;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWTableViewCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWTableViewCell/SWTableViewCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SWTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4666637E886C1815AC94640B3829E9E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D9AB78E82D6B82D34DBB3C3CCE89422 /* RMActionController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.4;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RMActionController/RMActionController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMActionController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RMActionController/RMActionController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RMActionController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B4F65C50C75D71CEEC4CBEBE9364237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C0A9F272325ACC6527778FFDC25C7E4 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53CD3204E7E5CE0C95E8BA5CF98DA438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EADB3EB1C6F0F2B2DA458C0DB4285AB /* RMDateSelectionViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2.0.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RMDateSelectionViewController/RMDateSelectionViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMDateSelectionViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RMDateSelectionViewController/RMDateSelectionViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RMDateSelectionViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6CE50BA5269FAF5548E978F93E89BC51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43DAAADF475AD230A0912924B6BECD47 /* RadioButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RadioButton/RadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RadioButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RadioButton/RadioButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		776F46A8EEA4241A94B69C8AA954F8C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9476923A92F63250C4A91C686BDE0DCF /* SQLiteCipher.swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SQLiteCipher.swift/SQLiteCipher.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLiteCipher.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLiteCipher.swift/SQLiteCipher.swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SQLiteCipher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79FE32C8C34BCFC5D37D3E3921DB15C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70B784FFD81988C011183E376AE63778 /* JGProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.3.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JGProgressHUD/JGProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JGProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JGProgressHUD/JGProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JGProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		849C048AA71B952AC8A859F1B91CBBC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A33D24B092CE458C572411566DD164B /* SWTableViewCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.3.7;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.3.7;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWTableViewCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWTableViewCell/SWTableViewCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SWTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9231151EE030244095FFDCD870304ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43DAAADF475AD230A0912924B6BECD47 /* RadioButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RadioButton/RadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RadioButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RadioButton/RadioButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93BAC9FD3EFB5BFB8074AF759D687A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EADB3EB1C6F0F2B2DA458C0DB4285AB /* RMDateSelectionViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2.0.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RMDateSelectionViewController/RMDateSelectionViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMDateSelectionViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RMDateSelectionViewController/RMDateSelectionViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RMDateSelectionViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98701B4D6E8DAAC16C5E0A6DD8F5F990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A7B5425910E0C63813CFC31770E8880 /* SQLite.swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9AB19102559A2D713C590C0BBA560CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A7B5425910E0C63813CFC31770E8880 /* SQLite.swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C8C1185C0768E549E95B82FC17A70BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9476923A92F63250C4A91C686BDE0DCF /* SQLiteCipher.swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SQLiteCipher.swift/SQLiteCipher.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLiteCipher.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLiteCipher.swift/SQLiteCipher.swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SQLiteCipher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE615150BD682E3C3A3CDBB6A3C1FAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E706F8F0858BED226B4FB18DE44BAB /* SQLCipher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 3.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 3;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLCipher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLCipher/SQLCipher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SQLCipher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8FAE385EF22D6F35AFA3575D969EFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D849E02D5A55E771751A73FEE95507AC /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA7A41C518EF442524C9DB9D4F7AB8D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E706F8F0858BED226B4FB18DE44BAB /* SQLCipher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 3.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 3;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLCipher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLCipher/SQLCipher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SQLCipher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		010A7CDD59AD770B151F0E0F6E5ADE22 /* Build configuration list for PBXNativeTarget "RMActionController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6AD4E47395AD2E6EEB5716DF167BC0 /* Debug */,
+				4666637E886C1815AC94640B3829E9E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24AD3EBE959976E573BA089C81375CEF /* Build configuration list for PBXNativeTarget "RMDateSelectionViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BAC9FD3EFB5BFB8074AF759D687A51 /* Debug */,
+				53CD3204E7E5CE0C95E8BA5CF98DA438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7733540F2158ABBDA1134DD6D4EBCB97 /* Build configuration list for PBXNativeTarget "JGProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FE32C8C34BCFC5D37D3E3921DB15C7 /* Debug */,
+				193CD29C2A9EBA167AF52F2B7A03B119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC3FE6D90BA69B0A5D5C916E5E1D725 /* Build configuration list for PBXNativeTarget "RadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9231151EE030244095FFDCD870304ED7 /* Debug */,
+				6CE50BA5269FAF5548E978F93E89BC51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FCF8705ED8BD9C47EA47ADD81FC2A26 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4F65C50C75D71CEEC4CBEBE9364237 /* Debug */,
+				D8FAE385EF22D6F35AFA3575D969EFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9877D94152B2280B27884079232CC091 /* Build configuration list for PBXNativeTarget "SQLiteCipher.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776F46A8EEA4241A94B69C8AA954F8C0 /* Debug */,
+				C8C1185C0768E549E95B82FC17A70BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B13A3A2FC2919CDD17D56762F8BB608 /* Build configuration list for PBXNativeTarget "SWTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849C048AA71B952AC8A859F1B91CBBC0 /* Debug */,
+				4302B28A3B3B04A3118D8CE74125C0B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6F364E0C944153CC04D25C3D707FC86 /* Build configuration list for PBXNativeTarget "SQLite.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98701B4D6E8DAAC16C5E0A6DD8F5F990 /* Debug */,
+				9AB19102559A2D713C590C0BBA560CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F666248BBB6D633CFE5FE80FE8E958EE /* Build configuration list for PBXNativeTarget "SQLCipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7A41C518EF442524C9DB9D4F7AB8D5 /* Debug */,
+				CE615150BD682E3C3A3CDBB6A3C1FAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

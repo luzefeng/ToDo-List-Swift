@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89010C531BCD4D390040E8B5 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89010C521BCD4D390040E8B5 /* AddView.swift */; };
+		89267D3F1BD224EF00A6253C /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89267D3E1BD224EF00A6253C /* TodoItem.swift */; };
+		893E37001C0DD2CF00D47CFD /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893E36FF1C0DD2CE00D47CFD /* Extension.swift */; };
+		897A6D931BD206DF005DD9F2 /* AddViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A6D921BD206DF005DD9F2 /* AddViewDelegate.swift */; };
+		897BA02B1BD24BD70099044F /* DbRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897BA02A1BD24BD70099044F /* DbRecord.swift */; };
 		89E523B21BC2AEAD00203D40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E523B11BC2AEAD00203D40 /* AppDelegate.swift */; };
-		89E523B41BC2AEAD00203D40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E523B31BC2AEAD00203D40 /* ViewController.swift */; };
 		89E523B71BC2AEAD00203D40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E523B51BC2AEAD00203D40 /* Main.storyboard */; };
 		89E523BA1BC2AEAD00203D40 /* ToDo_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89E523B81BC2AEAD00203D40 /* ToDo_List.xcdatamodeld */; };
 		89E523BC1BC2AEAD00203D40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89E523BB1BC2AEAD00203D40 /* Assets.xcassets */; };
 		89E523BF1BC2AEAD00203D40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E523BD1BC2AEAD00203D40 /* LaunchScreen.storyboard */; };
 		89E523CA1BC2AEAD00203D40 /* ToDo_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E523C91BC2AEAD00203D40 /* ToDo_ListTests.swift */; };
 		89E523D51BC2AEAD00203D40 /* ToDo_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E523D41BC2AEAD00203D40 /* ToDo_ListUITests.swift */; };
+		89E523E31BC2B21700203D40 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E523E21BC2B21700203D40 /* MainTableViewController.swift */; };
+		89E523E61BC2B53800203D40 /* set.png in Resources */ = {isa = PBXBuildFile; fileRef = 89E523E51BC2B53800203D40 /* set.png */; };
+		89E523EC1BC2BB5300203D40 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89E523E81BC2BB5300203D40 /* check@2x.png */; };
+		89E523ED1BC2BB5300203D40 /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89E523E91BC2BB5300203D40 /* clock@2x.png */; };
+		89E523EE1BC2BB5300203D40 /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89E523EA1BC2BB5300203D40 /* cross@2x.png */; };
+		89E523EF1BC2BB5300203D40 /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89E523EB1BC2BB5300203D40 /* list@2x.png */; };
+		89E523F91BC3AABC00203D40 /* MGCDPImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89E523F51BC3AABC00203D40 /* MGCDPImages.xcassets */; };
+		89E523FC1BC3FB3E00203D40 /* MGConferenceDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E523FB1BC3FB3E00203D40 /* MGConferenceDatePicker.m */; };
+		A2D3CF4C4D17B0362ECC17C6 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE875EC39E3917A05C9BBA9 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4CE875EC39E3917A05C9BBA9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89010C521BCD4D390040E8B5 /* AddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		89267D3E1BD224EF00A6253C /* TodoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		893E36FF1C0DD2CE00D47CFD /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		897A6D921BD206DF005DD9F2 /* AddViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewDelegate.swift; sourceTree = "<group>"; };
+		897BA02A1BD24BD70099044F /* DbRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DbRecord.swift; sourceTree = "<group>"; };
 		89E523AE1BC2AEAD00203D40 /* ToDo List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDo List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E523B11BC2AEAD00203D40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89E523B31BC2AEAD00203D40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		89E523B61BC2AEAD00203D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89E523B91BC2AEAD00203D40 /* ToDo_List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDo_List.xcdatamodel; sourceTree = "<group>"; };
 		89E523BB1BC2AEAD00203D40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +67,19 @@
 		89E523D01BC2AEAD00203D40 /* ToDo ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ToDo ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E523D41BC2AEAD00203D40 /* ToDo_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_ListUITests.swift; sourceTree = "<group>"; };
 		89E523D61BC2AEAD00203D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E523E21BC2B21700203D40 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		89E523E51BC2B53800203D40 /* set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = set.png; sourceTree = "<group>"; };
+		89E523E71BC2B8EA00203D40 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		89E523E81BC2BB5300203D40 /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
+		89E523E91BC2BB5300203D40 /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
+		89E523EA1BC2BB5300203D40 /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
+		89E523EB1BC2BB5300203D40 /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list@2x.png"; sourceTree = "<group>"; };
+		89E523F51BC3AABC00203D40 /* MGCDPImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MGCDPImages.xcassets; sourceTree = "<group>"; };
+		89E523F61BC3AABC00203D40 /* MGConferenceDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGConferenceDatePicker.h; sourceTree = "<group>"; };
+		89E523F81BC3AABC00203D40 /* MGConferenceDatePickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGConferenceDatePickerDelegate.h; sourceTree = "<group>"; };
+		89E523FB1BC3FB3E00203D40 /* MGConferenceDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGConferenceDatePicker.m; sourceTree = "<group>"; };
+		B5260A2E458FB0035827BFBC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BFF672BF54332BDDCCDAFE35 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D3CF4C4D17B0362ECC17C6 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +108,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09F9C87C7BD5A1B7F98805A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CE875EC39E3917A05C9BBA9 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		893E36FB1C0DD17900D47CFD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				893E36FF1C0DD2CE00D47CFD /* Extension.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		893E36FC1C0DD18600D47CFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89010C521BCD4D390040E8B5 /* AddView.swift */,
+				897A6D921BD206DF005DD9F2 /* AddViewDelegate.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		893E36FD1C0DD19400D47CFD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				89E523E21BC2B21700203D40 /* MainTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		893E36FE1C0DD1A700D47CFD /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				89E523F41BC3AABC00203D40 /* MGConferenceDatePicker */,
+			);
+			name = Third;
+			sourceTree = "<group>";
+		};
+		897BA0291BD24B0B0099044F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89267D3E1BD224EF00A6253C /* TodoItem.swift */,
+				897BA02A1BD24BD70099044F /* DbRecord.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		89E523A51BC2AEAD00203D40 = {
 			isa = PBXGroup;
 			children = (
+				89E523E71BC2B8EA00203D40 /* Bridging-Header.h */,
 				89E523B01BC2AEAD00203D40 /* ToDo List */,
 				89E523C81BC2AEAD00203D40 /* ToDo ListTests */,
 				89E523D31BC2AEAD00203D40 /* ToDo ListUITests */,
 				89E523AF1BC2AEAD00203D40 /* Products */,
+				BA464F3890A51AD6F85C8F04 /* Pods */,
+				09F9C87C7BD5A1B7F98805A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +184,13 @@
 		89E523B01BC2AEAD00203D40 /* ToDo List */ = {
 			isa = PBXGroup;
 			children = (
+				893E36FE1C0DD1A700D47CFD /* Third */,
+				893E36FD1C0DD19400D47CFD /* Controller */,
+				893E36FC1C0DD18600D47CFD /* View */,
+				897BA0291BD24B0B0099044F /* Model */,
+				893E36FB1C0DD17900D47CFD /* Common */,
+				89E523E41BC2B52D00203D40 /* Resource */,
 				89E523B11BC2AEAD00203D40 /* AppDelegate.swift */,
-				89E523B31BC2AEAD00203D40 /* ViewController.swift */,
 				89E523B51BC2AEAD00203D40 /* Main.storyboard */,
 				89E523BB1BC2AEAD00203D40 /* Assets.xcassets */,
 				89E523BD1BC2AEAD00203D40 /* LaunchScreen.storyboard */,
@@ -128,6 +218,39 @@
 			path = "ToDo ListUITests";
 			sourceTree = "<group>";
 		};
+		89E523E41BC2B52D00203D40 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				89E523E81BC2BB5300203D40 /* check@2x.png */,
+				89E523E91BC2BB5300203D40 /* clock@2x.png */,
+				89E523EA1BC2BB5300203D40 /* cross@2x.png */,
+				89E523EB1BC2BB5300203D40 /* list@2x.png */,
+				89E523E51BC2B53800203D40 /* set.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		89E523F41BC3AABC00203D40 /* MGConferenceDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				89E523F51BC3AABC00203D40 /* MGCDPImages.xcassets */,
+				89E523F61BC3AABC00203D40 /* MGConferenceDatePicker.h */,
+				89E523FB1BC3FB3E00203D40 /* MGConferenceDatePicker.m */,
+				89E523F81BC3AABC00203D40 /* MGConferenceDatePickerDelegate.h */,
+			);
+			name = MGConferenceDatePicker;
+			path = ../MGConferenceDatePicker;
+			sourceTree = "<group>";
+		};
+		BA464F3890A51AD6F85C8F04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5260A2E458FB0035827BFBC /* Pods.debug.xcconfig */,
+				BFF672BF54332BDDCCDAFE35 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89E523D91BC2AEAD00203D40 /* Build configuration list for PBXNativeTarget "ToDo List" */;
 			buildPhases = (
+				E2162727FEEFEEA03B45B6AB /* Check Pods Manifest.lock */,
 				89E523AA1BC2AEAD00203D40 /* Sources */,
 				89E523AB1BC2AEAD00203D40 /* Frameworks */,
 				89E523AC1BC2AEAD00203D40 /* Resources */,
+				D2E8587BBED74B1B9DE95534 /* Embed Pods Frameworks */,
+				8EF4CD6212860BD5A0F4B06D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,8 +357,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89E523EC1BC2BB5300203D40 /* check@2x.png in Resources */,
 				89E523BF1BC2AEAD00203D40 /* LaunchScreen.storyboard in Resources */,
 				89E523BC1BC2AEAD00203D40 /* Assets.xcassets in Resources */,
+				89E523ED1BC2BB5300203D40 /* clock@2x.png in Resources */,
+				89E523EF1BC2BB5300203D40 /* list@2x.png in Resources */,
+				89E523F91BC3AABC00203D40 /* MGCDPImages.xcassets in Resources */,
+				89E523EE1BC2BB5300203D40 /* cross@2x.png in Resources */,
+				89E523E61BC2B53800203D40 /* set.png in Resources */,
 				89E523B71BC2AEAD00203D40 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +385,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8EF4CD6212860BD5A0F4B06D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2E8587BBED74B1B9DE95534 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2162727FEEFEEA03B45B6AB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		89E523AA1BC2AEAD00203D40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89E523B41BC2AEAD00203D40 /* ViewController.swift in Sources */,
+				893E37001C0DD2CF00D47CFD /* Extension.swift in Sources */,
+				897BA02B1BD24BD70099044F /* DbRecord.swift in Sources */,
+				897A6D931BD206DF005DD9F2 /* AddViewDelegate.swift in Sources */,
 				89E523B21BC2AEAD00203D40 /* AppDelegate.swift in Sources */,
+				89E523E31BC2B21700203D40 /* MainTableViewController.swift in Sources */,
+				89010C531BCD4D390040E8B5 /* AddView.swift in Sources */,
+				89E523FC1BC3FB3E00203D40 /* MGConferenceDatePicker.m in Sources */,
 				89E523BA1BC2AEAD00203D40 /* ToDo_List.xcdatamodeld in Sources */,
+				89267D3F1BD224EF00A6253C /* TodoItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,23 +584,27 @@
 		};
 		89E523DA1BC2AEAD00203D40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5260A2E458FB0035827BFBC /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ToDo List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lu.free.todolist.ToDo-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		89E523DB1BC2AEAD00203D40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFF672BF54332BDDCCDAFE35 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ToDo List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lu.free.todolist.ToDo-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -485,6 +675,7 @@
 				89E523DB1BC2AEAD00203D40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89E523DC1BC2AEAD00203D40 /* Build configuration list for PBXNativeTarget "ToDo ListTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +684,7 @@
 				89E523DE1BC2AEAD00203D40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89E523DF1BC2AEAD00203D40 /* Build configuration list for PBXNativeTarget "ToDo ListUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +693,7 @@
 				89E523E11BC2AEAD00203D40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
